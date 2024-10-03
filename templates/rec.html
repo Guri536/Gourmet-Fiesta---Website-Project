@@ -1,0 +1,97 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\rec.css' %}" />
+</head>
+<body>
+    <div id="navb">{%include "nav.html"%}</div>
+    
+    <main>
+      <div class="cont">
+        <div class="left">
+            <div class="img_sec" id="imgc">
+              <img  src="{% static '\res\img\main\sample.jpg'%}"  alt="" class="img">
+            </div>
+            <div class="seller">
+               <div class="seller_text" id="seller">
+                Recipie By:
+              </div> 
+            </div>
+          </div>
+          <div class="right">
+            <div class="title" id="title">
+            </div>
+            <div class="desc">
+              <div style="font-size: 1.2vw;">Desc:</div>
+              <div class="desc_text" id="desc">
+              </div>
+            </div>
+            <div class="ings">
+              <div style="font-size: 1.2vw;">Ingredients:</div>
+              <div class="ing_list">
+                <ul id="ing_ulist">
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="steps">
+          <div style="font-size: 1.2vw;">Steps:</div>
+          <ol id="steps">
+
+          </ol>
+        </div>
+    </main>
+
+    {%include "footer.html"%}
+
+</body>
+<script>
+    var x = JSON.parse('{{user_data|safe}}');
+
+    var rec = x['rec'];
+    console.log(rec)
+    document.getElementById('imgc').querySelector('img').src = "/static/res/img/dow/"+rec['metadata']['image'];
+    document.getElementById('seller').innerHTML += rec['chef'];
+    try
+    {
+    if (rec['status'].toLowerCase() == "y")
+    {
+    document.getElementById('seller').innerHTML += "<br><br>Verified Professional Chef";
+    }
+    }
+    catch
+    {
+      document.getElementById('seller').innerHTML += "<br>" + x['qual'] + "<br>" + x['email'];
+    }
+    document.getElementById('title').innerHTML += rec['name'];
+    document.getElementById('desc').innerHTML = rec['metadata']['desc'];
+    var li = document.getElementById('ing_ulist');
+    for (var i of (rec['ingredients']))
+    {
+      console.log(i);
+      var li_item = document.createElement('li');
+      var in_div = document.createElement('div');
+      var in_div2 = document.createElement('div');
+      in_div.innerHTML = Object.keys(i);
+      li_item.append(in_div);
+      in_div2.innerHTML = i[Object.keys(i)];
+      li_item.append(in_div2);
+      li.append(li_item);
+      li.append(document.createElement('hr'));
+    }
+    var steps_list = document.getElementById('steps');
+    for (var i of rec['steps']){
+      var ol_item = document.createElement('li');
+      ol_item.innerHTML = i;
+      steps_list.append(ol_item);
+      steps_list.append(document.createElement('hr'));
+    }
+</script>
+</html>

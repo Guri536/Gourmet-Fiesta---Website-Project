@@ -1,0 +1,93 @@
+@import url("def.css");
+
+body
+{
+    margin: 0;
+    background-image: linear-gradient(90deg, var(--bac_g), var(--bac), var(--bac_g));
+
+}
+
+main{
+    margin: 100px;
+    margin-top: 100px;
+    padding: 30px 80px;
+    background-color: #333333;
+    border-radius: 50px;
+    box-sizing: border-box;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.cont
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    /* background-color: red; */
+}
+.left{
+    padding: 30px;
+    height: max-content;
+    box-sizing: border-box;
+}
+.right{
+    padding: 30px;
+    padding-left: 15px;
+}
+.img_sec{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--secondary-green);
+    border: 5px #ffffff20 solid;
+    border-radius: 20px;
+    width: max-content;
+    padding: 10px;
+    margin: 10px auto;
+}
+.img_sec img{
+    width: 22vw;
+    height: auto;
+    border-radius: 10px;
+}
+.seller, .title, .desc, .checkout, .ings, .steps{
+    padding: 20px;
+    background-color: var(--secondary-green);
+    border: 5px #ffffff20 solid;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.seller{
+    width: 21vw;
+    font-size: 1.1vw;
+}
+.title{
+    font-size: 1.4vw;
+}
+.desc{
+    font-size: 1vw;
+}
+.ings{
+    font-size: 1vw;
+}
+.steps{
+    margin: 0px 30px;
+}
+ul li{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+}
+li div:first-child{
+    display: list-item;
+}
+hr{
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+
+ol li{
+    list-style: none;
+    font-size: 1.1vw;
+    margin-top: 10px;
+}

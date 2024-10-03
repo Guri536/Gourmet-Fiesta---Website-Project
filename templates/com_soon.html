@@ -1,0 +1,49 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - GF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\search.css' %}" />
+    <script src="{% static 'JS\def_load.js' %}"></script>
+  </head>
+  <body>
+    <div id="navb">{%include "nav.html"%}</div>
+    <main>
+      <div class="sidebar_back">
+        <div class="sidebar">
+          <div class="" onclick='get_home()'>
+            <img src="{% static '\res\img\main\home.svg'%}" alt="" />
+          </div>
+          <div class="" onclick="search_click()">
+            <img src="{%static '\res\def\search.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\fire.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\trending.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\chef.svg'%}" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="mid_img">
+            <img src="{%static '\res/def/W Main Logo.png'%}" alt="">
+        </div>
+        <div class="com_text">
+            Coming Soon
+        </div>
+      </div>
+    </main>
+    <div id="footerb">{%include 'footer.html'%}</div>
+
+  </body>
+</html>

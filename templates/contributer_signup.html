@@ -1,0 +1,70 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="{%static 'CSS/sign.css'%}">
+    <style>
+      body{
+        background-image: url('https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_sign">
+    <form method="POST">
+      {%csrf_token%}
+      <h2>Become A Contributer</h2>
+      <input type="email" name="email" placeholder="Email" id="email" required /><br />
+      <input type="text" name="first_name" placeholder="First Name" id="fname" required /><br />
+      <input type="text" name="last_name" placeholder="Last Name" id="lname" required /><br />
+      
+      <div class="cuisine_s">
+        <label for="cusine">Cuisine Speciality </label>
+        <select name="cusine" id="cusine_selector" required> 
+          <option value="" selected hidden>Choose</option>
+          <option value="Indian">Indian</option>
+          <option value="Italian">Italian</option>
+          <option value="Chinese">Chinese</option>
+          <option value="Thai">Thai</option>
+        </select>
+      </div>
+      <div class="qual_s">
+        <label for="qual">Qualification In Culinary </label>
+        <select name="qual" id="qual_selector" required> 
+          <option value="None" selected>None</option>
+          <option value="B.A Culinary Arts">B.A Culinary Arts</option>
+          <option value="B. Gastronomy">Bachelor's in Gastronomy</option>
+          <option value="Majors in Culinary Arts">Culinary Majors</option>
+          <option value="Working Chef">Commercial Chef</option>
+          <option value="Home Chef">Home Chef</option>
+        </select>
+      </div>
+      <input type="submit" value="Get Authorized" />
+    </form>
+    {%if messages%}
+    {%for message in messages%}
+    {%if 'error' in message.tags%}
+    <div class="err" id="err"> 
+      {{message}}
+    </div>
+    {%endif%}
+    {%endfor%}
+    {%endif%}
+
+    <div class="down_text">
+      <div class="chn_text">
+        Don't Have An Account? <a href="sign">Signup</a>
+      </div>
+    </div>
+  </div>
+  </body>
+  <script>
+    function test(){
+      fetch('/test', {method:'GET'});
+      return false;
+    } 
+  </script>
+</html>

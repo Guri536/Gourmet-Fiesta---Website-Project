@@ -1,0 +1,37 @@
+{%load static%}
+    <footer>
+      <div class="rules">
+        <a href="{%url 'home'%}">Home</a> <br>
+        <a href="{%url 'search'%}">Recipes</a> <br>
+        <a href="{%url 'cont'%}">Get CHEF badge</a>
+      </div>
+      <div class="services">
+        <a href="{%url 'pr'%}">Privacy Policy</a> <br>
+        <a href="{%url 'cs'%}">Terms & Conditions</a> <br>
+        <a href="{%url 'cs'%}">Copyright Notice</a>
+      </div>
+      <div class="footer_logo">
+        <a href=""><img src="{%static '\res/def/W Main Logo.png'%}" alt=""></a>
+      </div>
+      <div class="help_text">
+        <a href="{%url 'ab'%}">About us</a> <br>
+        <a href="{%url 'cs'%}">Blogs</a> <br>
+        <a href="{%url 'cs'%}">Recognitions</a>
+      </div>
+      <div class="contacts">
+        <a href="{%url 'cs'%}">Social Media</a> <br>
+        <a href="{%url 'cs'%}">Social Media </a><br>
+        <a href="{%url 'cs'%}">Social Media</a>
+      </div>
+    </footer>
+
+<script>
+    function get_home()
+  {
+      window.location.assign("{%url 'home'%}");
+  }
+  function search_click()
+  {
+    window.location.assign("{%url 'search'%}");
+  }
+</script>

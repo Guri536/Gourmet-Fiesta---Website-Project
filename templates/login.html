@@ -1,0 +1,45 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="{%static 'CSS/sign.css'%}">
+  </head>
+  <body>
+    <div class="main_sign">
+    <form method="POST">
+      {%csrf_token%}
+      <h2>Login</h2>
+      <input type="email" name="email" placeholder="Email" id="email" required /><br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        id="pass"
+        required
+      /><br />
+      <input type="submit" value="Login" />
+    </form>
+    {%if messages%}
+    {%for message in messages%}
+    {%if 'error' in message.tags%}
+    <div class="err" id="err"> 
+      Wrong Email or Password
+    </div>
+    {%endif%}
+    {%endfor%}
+    {%endif%}
+
+    <div class="down_text">
+      <div class="chn_text">
+        Don't have An Account? <a href="sign">Signup</a>
+      </div>
+      <div class="contr_text">
+        Become A Contributer <a href="cont-signup">Here</a>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

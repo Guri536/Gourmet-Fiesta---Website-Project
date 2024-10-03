@@ -1,0 +1,230 @@
+@import url("def.css");
+
+body{
+    margin: 0;
+    background-size: contain;
+    background-clip: border-box;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(3px); */
+}
+main
+{
+    padding: 20px 100px;
+    margin: 50px;
+    /* background-color: red; */
+}
+.add_text, .top_text, .form_sec
+{
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border: 5px #ffffff20 solid;
+    border-radius: 20px;
+    margin: 10px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.add_text{
+    font-size: 1vw;
+    width: 100%;
+}
+.top_text{
+    background-color: var(--secondary-green);
+    text-decoration: underline;
+    text-decoration-color: var(--primary-green);
+    width: max-content;
+    font-size: 1.7vw;
+    
+}
+.form_sec{
+    /* background-color: var(--secondary-green); */
+    width: 100%;
+    form{
+        width: 100%;
+    }
+}
+.content_sec{
+
+    /* width: 100%; */
+    /* display: flex; */
+    display: flex;
+    /* background-color: yellow; */
+    box-sizing: border-box;
+}
+.left_sec{
+    /* background-color: red; */
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    /* box-sizing: border-box; */
+    /* display: block; */
+}
+.right_sec{
+    /* background-color: blue; */
+    padding: 10px;
+    width: 25vw;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+}
+.right_sec img
+{
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px rgb(154, 154, 154) solid;
+    border-radius: 20px;
+}
+
+.list_sec{
+    background-color: var(--primary-green);
+    border: none;
+    border-radius: 10px;
+    font-size: 1vw;
+    padding: 10px 15px;
+    display: flex;
+    margin: 5px;
+    width: 50%;
+    color: white;
+    input, textarea, select{
+        width: 100%;
+    font-size: 1vw;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    }
+}
+.selected_type{
+    color: black;
+    width: max-content;
+    text-wrap: nowrap;
+    margin-left: 10px;
+    display: flex;
+    padding: 0px 5px;
+
+}
+.selected, .step_label{ 
+    color: black;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    width: max-content;
+}
+.selections{
+    width: 100%;
+    text-align: center;
+}
+#type{
+    width: 90%;
+    /* margin-top: 10px; */
+}
+
+.ing, .steps_sec {
+    display: block;
+    *{
+        /* margin-left: 10px; */
+        width: max-content;
+    }
+    .selections{
+        width: 50%;
+    }
+    input{
+        width: 60%;
+    }
+    .ing_q{
+        width: 50%;
+    }
+    .ing_t{
+        width: 100%;
+    }
+    optgroup, option{
+        font-style: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+.add_btn{
+    width: 50%;
+    margin: 10px auto;
+}
+.int_sec_sec{
+    display: inline;
+    text-align: center;
+}
+.select_ing, .kw_list{
+    display: flex;
+}
+.select_ing:not(.select_ing:first-child),.single_step:not(.single_step:first-child) {
+    margin-top: 10px;
+}
+.select_ing:last-child{
+    margin-right: 20px;
+}
+.err{
+    width: 90%;
+    padding: 5px;
+    background-color: rgba(255, 255, 101, 0.483);
+    margin: 10px auto;
+    /* text-align: center; */
+    border-radius: 10px;
+    border: 2px yellow solid;
+    color: black;
+  }
+.single_step{
+    width: 100%;
+    display: flex;
+    input{
+        width: 100%;
+    }
+}
+.step_list, .steps_sec{
+    width: 100%;    
+    text-align: center;
+    .add_btn{
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+.kw_list{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    .add_btn{
+    margin: 0px 20px;
+    }
+    input{
+        width: 150px;
+    }
+}
+.kw_sec{
+    width: 100%;
+    /* overflow: auto; */
+    max-width: 100%;
+    display: inline-block;
+}
+.kw_selected
+{
+    margin: 5px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    .step_label{
+        margin-top: 5px;
+    }
+}
+
+.right_sec button[type='reset']{
+    margin: 10px 0 0 0%;
+}
+.right_sec button[type='submit']{
+    margin-top: 10px;
+    margin-left: 0%;
+}
+.right_sec button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    background-color: var(--primary-green);
+    color: white;
+}

@@ -1,0 +1,76 @@
+{%load static%}
+<nav>
+  <div class="left_text">
+    <a href="{%url 'home'%}">
+      <div class="main">
+        <img src="{% static '\res\def\Mini Logo.png'%}" alt="" />
+      </div>
+    </a>
+    <div class="text_rec" onclick="search_click()">Recipes</div>
+    <!-- <div class="learn_rec">Learn</div> -->
+    <a href="{%url 'cs'%}"><div class="" style="color: black;">Favourites</div></a>
+    {% if user_data|parse|get_item:'type' == 'n' %}
+    <div class="reg_rec" onclick="window.location.assign('cont-signup')">
+      Become a Contributor
+    </div>
+    {%endif%} {% if user_data|parse|get_item:'type' == 'c' %}
+    <div class="reg_rec" onclick="window.location.assign('add')">
+      Upload Recipes
+    </div>
+    {%endif%}
+  </div>
+  <div class="right_text">
+    {% if user_data|parse|get_item:'type' == 'c' %}
+    <div class="ing_search" name="rec_s" id="rec_search" for="rec_input">
+      Contributor Status
+    </div>
+    {%endif%}
+    <div
+      class="ing_search"
+      name="rec_s"
+      id="rec_search"
+      for="rec_input"
+      onclick="document.getElementById('rec_input').focus();return false;"
+    >
+      <img src="{%static '\res\def\search.svg'%}" alt="" />
+      <form onsubmit="nav_src();return false;">
+      <input
+        type="text"
+        id="rec_input"
+        placeholder="Recipe Search"
+        required
+      />
+    </form>
+    </div>
+    <div class="ing_search" id="ing_search" onclick="search_click()">
+      <img src="{%static '\res\def\mushroom.svg'%}" alt="" />
+      Ingredient Search
+    </div>
+    <div class="dropdown" id="acc_bt">
+      <img src="{%static '\res\def\account.png'%}" alt="Acc" class="dropbtn" />
+      <div class="dropdown-content">
+        <a href="#">
+          {% if user_data|parse|get_item:'type' == 'c' %}
+          {{user_data|parse|get_item:'first_name' }}
+          {{user_data|parse|get_item:'last_name'}} {%endif%}
+          {%if user_data|parse|get_item:'type' == 'n' %}
+          {{user_data|parse|get_item:'name'}} {%endif%}
+        </a>
+        <a href="{%url 'cs'%}">Favorites</a>
+        {% if user_data|parse|get_item:'type' == 'c' %}
+        <a href="{%url 'cs'%}">Your Recipes</a>
+        {%endif%}
+
+        <a href="{%url 'cs'%}">Settings</a>
+        <a href="logout" class="logout_bt">Logout</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  function nav_src()
+  {
+    window.location.assign("{%url 'search'%}?query="+document.getElementById('rec_input').value);
+  }
+</script>

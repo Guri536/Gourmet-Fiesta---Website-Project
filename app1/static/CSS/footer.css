@@ -1,0 +1,35 @@
+@import url("def.css");
+
+footer{
+    /* margin-top: 50px; */
+    padding: 20px;
+    background-color: var(--secondary-green);
+    /* display: flexbox;
+    box-sizing: border-box; */
+    /* position: fixed; */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer div{
+    background-color: var(--primary-green);
+    padding: 15px;
+    margin: auto 10px;
+    color: white;
+    width: auto;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+.footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+    height: 60px;
+}

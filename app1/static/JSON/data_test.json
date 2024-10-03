@@ -1,0 +1,2839 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Butter Chicken",
+        "status": "N",
+        "chef": "Sanjeev Kapoor",
+        "type": [
+            "Dairy",
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Chicken Breasts": "500g"
+            },
+            {
+                "Garlic-Ginger Paste": "20ml"
+            },
+            {
+                "Butter": "50g"
+            },
+            {
+                "Tomato Puree": "200g"
+            },
+            {
+                "Heavy Cream": "100ml"
+            },
+            {
+                "Kashmiri Red Chili Powder": "1 tsp"
+            },
+            {
+                "Garam Masala": "1 tsp"
+            },
+            {
+                "Sugar": "1 tsp"
+            },
+            {
+                "Kasuri Methi (Dried Fenugreek Leaves)": "1 tbsp"
+            },
+            {
+                "Salt": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Marinate chicken with yogurt, salt, and Kashmiri red chili powder for 1 hour.",
+            "2. Grill or bake marinated chicken until cooked through.",
+            "3. Heat butter in a pan over medium heat.",
+            "4. Add garlic-ginger paste and saut\u00c3\u00a9 until fragrant.",
+            "5. Stir in tomato puree and cook until oil separates from the mixture.",
+            "6. Add grilled chicken to the sauce and simmer for 10 minutes.",
+            "7. Pour in heavy cream and sprinkle with garam masala, sugar, and kasuri methi.",
+            "8. Cook for another 5 minutes until the sauce thickens and chicken is well coated.",
+            "9. Season with salt to taste.",
+            "10. Garnish with fresh cream and coriander leaves before serving."
+        ],
+        "metadata": {
+            "desc": "A classic Indian dish with tender chicken pieces simmered in a creamy and flavorful tomato-based sauce.",
+            "reviews": {
+                "1": [
+                    "Bad",
+                    "Bbabd"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chicken",
+                "Non-Veg"
+            ]
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Vegetable Curry",
+        "status": "Y",
+        "chef": "Nigella Lawson",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Potatoes": "300g"
+            },
+            {
+                "Carrots": "200g"
+            },
+            {
+                "Green Beans ": "150g"
+            },
+            {
+                "Onion": "1"
+            },
+            {
+                "Garlic Cloves": "2"
+            },
+            {
+                "Ginger": "1 inch piece"
+            },
+            {
+                "Tomatoes": "2"
+            },
+            {
+                "Green Peas": "100g"
+            },
+            {
+                "Coconut Milk": "400ml"
+            },
+            {
+                "Curry Powder": "2 tsp"
+            },
+            {
+                "Turmeric Powder": "1/2 tsp"
+            },
+            {
+                "Cumin Powder": "1/2 tsp"
+            },
+            {
+                "Coriander Powder": "1/2 tsp"
+            },
+            {
+                "Red Chili Powder": "1/4 tsp"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Vegetable Oil": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Heat vegetable oil in a pan over medium heat.",
+            "2. Add chopped onions, garlic, and ginger. Saut\u00c3\u00a9 until onions are translucent.",
+            "3. Stir in curry powder, turmeric powder, cumin powder, coriander powder, and red chili powder. Cook for 2 minutes.",
+            "4. Add diced potatoes and carrots. Cook for 5 minutes.",
+            "5. Pour in chopped tomatoes and cook until they soften.",
+            "6. Add green beans and green peas. Cook for another 5 minutes.",
+            "7. Pour in coconut milk and bring to a simmer.",
+            "8. Cover and cook for 15-20 minutes or until vegetables are tender.",
+            "9. Season with salt to taste.",
+            "10. Serve hot with rice or bread."
+        ],
+        "metadata": {
+            "desc": "A delicious and nutritious vegetable curry with a blend of aromatic spices and creamy coconut milk.",
+            "reviews": {
+                "1": [
+                    "One review"
+                ],
+                "2": [
+                    "Rated as Excellent with comment Great taste!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Vegetarian",
+                "Curry",
+                "veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "3": {
+        "id": 3,
+        "name": "Grilled Chicken Caesar Salad",
+        "status": "Y",
+        "chef": "Jamie Oliver",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Chicken Breast": "2"
+            },
+            {
+                "Romaine Lettuce": "1 head"
+            },
+            {
+                "Caesar Dressing": "1/2 cup"
+            },
+            {
+                "Parmesan Cheese": "1/4 cup, grated"
+            },
+            {
+                "Croutons": "1 cup"
+            }
+        ],
+        "steps": [
+            "1. Preheat grill to medium-high heat.",
+            "2. Season chicken breasts with salt and pepper.",
+            "3. Grill chicken for 6-8 minutes per side, until cooked through.",
+            "4. Allow chicken to rest for 5 minutes, then slice thinly.",
+            "5. Chop romaine lettuce into bite-sized pieces.",
+            "6. In a large bowl, toss lettuce with Caesar dressing until coated.",
+            "7. Divide dressed lettuce among plates.",
+            "8. Top each plate with sliced grilled chicken.",
+            "9. Sprinkle grated Parmesan cheese over chicken.",
+            "10. Garnish with croutons.",
+            "11. Serve immediately."
+        ],
+        "metadata": {
+            "desc": "A classic Caesar salad with grilled chicken for added flavor and protein.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as delicious with perfectly grilled chicken!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Salad",
+                "Chicken",
+                "Caesar",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "4": {
+        "id": 4,
+        "name": "Vegetable Stir Fry",
+        "status": "Y",
+        "chef": "Nigella Lawson",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Broccoli": "1 head"
+            },
+            {
+                "Carrots": "2"
+            },
+            {
+                "Red Bell Pepper": "1"
+            },
+            {
+                "Snap Peas": "1 cup"
+            },
+            {
+                "Garlic": "3 cloves, minced"
+            },
+            {
+                "Ginger": "1 tbsp, minced"
+            },
+            {
+                "Soy Sauce": "1/4 cup"
+            },
+            {
+                "Sesame Oil": "2 tbsp"
+            },
+            {
+                "Rice Vinegar": "1 tbsp"
+            },
+            {
+                "Honey": "1 tbsp"
+            },
+            {
+                "Cornstarch": "1 tbsp, mixed with 2 tbsp water"
+            }
+        ],
+        "steps": [
+            "1. Prepare vegetables by washing and chopping them into bite-sized pieces.",
+            "2. In a small bowl, whisk together soy sauce, sesame oil, rice vinegar, honey, and minced garlic and ginger.",
+            "3. Heat a large skillet or wok over medium-high heat.",
+            "4. Add vegetables to the skillet and stir-fry for 3-4 minutes until slightly tender but still crisp.",
+            "5. Pour the sauce over the vegetables and toss to coat evenly.",
+            "6. Cook for an additional 2 minutes.",
+            "7. Stir in the cornstarch mixture and cook until the sauce has thickened.",
+            "8. Remove from heat and serve immediately over rice or noodles.",
+            "9. Garnish with sesame seeds and chopped green onions if desired."
+        ],
+        "metadata": {
+            "desc": "A quick and flavorful vegetarian stir-fry loaded with colorful vegetables and a savory sauce.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as delicious and easy to make!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Stir Fry",
+                "Vegetables",
+                "Asian",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "5": {
+        "id": 5,
+        "name": "Classic Margherita Pizza",
+        "status": "Y",
+        "chef": "Giada De Laurentiis",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Pizza Dough": "1 ball"
+            },
+            {
+                "Tomatoes": "2, thinly sliced"
+            },
+            {
+                "Fresh Mozzarella Cheese": "200g, sliced"
+            },
+            {
+                "Fresh Basil Leaves": "a handful"
+            },
+            {
+                "Extra Virgin Olive Oil": "2 tbsp"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to the highest temperature setting, preferably with a pizza stone inside if available.",
+            "2. Roll out the pizza dough on a lightly floured surface to your desired thickness.",
+            "3. Transfer the rolled-out dough to a pizza peel or parchment paper.",
+            "4. Drizzle olive oil over the dough and spread it evenly.",
+            "5. Arrange the tomato slices evenly over the dough.",
+            "6. Season with salt and pepper to taste.",
+            "7. Place slices of fresh mozzarella cheese over the tomatoes.",
+            "8. Slide the pizza onto the preheated pizza stone in the oven.",
+            "9. Bake for 10-12 minutes or until the crust is golden and the cheese is bubbly and melted.",
+            "10. Remove from the oven and sprinkle fresh basil leaves over the hot pizza.",
+            "11. Let it cool slightly before slicing and serving."
+        ],
+        "metadata": {
+            "desc": "A simple yet delicious pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as fantastic with a perfect crust!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Pizza",
+                "Margherita",
+                "Italian",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "6": {
+        "id": 6,
+        "name": "Teriyaki Salmon",
+        "status": "Y",
+        "chef": "Bobby Flay",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Salmon Fillets": "4"
+            },
+            {
+                "Soy Sauce": "1/4 cup"
+            },
+            {
+                "Brown Sugar": "1/4 cup"
+            },
+            {
+                "Mirin": "2 tbsp"
+            },
+            {
+                "Rice Vinegar": "2 tbsp"
+            },
+            {
+                "Garlic": "2 cloves, minced"
+            },
+            {
+                "Ginger": "1 tbsp, minced"
+            },
+            {
+                "Cornstarch": "1 tbsp, mixed with 2 tbsp water"
+            },
+            {
+                "Sesame Seeds": "for garnish"
+            },
+            {
+                "Green Onions": "for garnish"
+            }
+        ],
+        "steps": [
+            "1. In a small saucepan, combine soy sauce, brown sugar, mirin, rice vinegar, minced garlic, and minced ginger.",
+            "2. Bring the mixture to a simmer over medium heat and cook for 2-3 minutes until slightly thickened.",
+            "3. Place salmon fillets in a shallow dish and pour half of the teriyaki sauce over them, reserving the rest for later.",
+            "4. Marinate the salmon in the sauce for 15-30 minutes.",
+            "5. Preheat your grill or grill pan to medium-high heat.",
+            "6. Grill the salmon fillets for 4-5 minutes per side, or until cooked to your desired doneness, basting with the reserved teriyaki sauce occasionally.",
+            "7. Remove salmon from the grill and let it rest for a few minutes.",
+            "8. Drizzle with any remaining teriyaki sauce and sprinkle with sesame seeds and chopped green onions.",
+            "9. Serve hot with steamed rice and vegetables."
+        ],
+        "metadata": {
+            "desc": "Tender grilled salmon glazed with a homemade teriyaki sauce, garnished with sesame seeds and green onions.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as mouthwatering and easy to make!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Salmon",
+                "Teriyaki",
+                "Seafood",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "7": {
+        "id": 7,
+        "name": "Homemade Lasagna",
+        "status": "Y",
+        "chef": "Ina Garten",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Lasagna Noodles": "9"
+            },
+            {
+                "Ground Beef": "500g"
+            },
+            {
+                "Italian Sausage": "250g"
+            },
+            {
+                "Onion": "1, chopped"
+            },
+            {
+                "Garlic": "3 cloves, minced"
+            },
+            {
+                "Tomato Sauce": "700ml"
+            },
+            {
+                "Ricotta Cheese": "500g"
+            },
+            {
+                "Egg": "1"
+            },
+            {
+                "Fresh Basil": "a handful, chopped"
+            },
+            {
+                "Mozzarella Cheese": "300g, shredded"
+            },
+            {
+                "Parmesan Cheese": "100g, grated"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. Cook lasagna noodles according to package instructions, then drain and set aside.",
+            "3. In a large skillet, brown ground beef and Italian sausage over medium heat until cooked through.",
+            "4. Add chopped onion and minced garlic to the skillet, and saut\u00c3\u00a9 until softened.",
+            "5. Stir in tomato sauce and simmer for 10 minutes.",
+            "6. In a separate bowl, combine ricotta cheese, egg, and chopped basil. Season with salt and black pepper.",
+            "7. Spread a thin layer of meat sauce in the bottom of a 9x13-inch baking dish.",
+            "8. Place a layer of cooked lasagna noodles over the sauce.",
+            "9. Spread half of the ricotta mixture over the noodles, then sprinkle with shredded mozzarella and grated Parmesan cheese.",
+            "10. Repeat the layers, ending with a layer of meat sauce and a sprinkle of cheese on top.",
+            "11. Cover the baking dish with foil and bake for 30 minutes.",
+            "12. Remove the foil and bake for an additional 15-20 minutes until bubbly and golden brown on top.",
+            "13. Let the lasagna cool for a few minutes before slicing and serving."
+        ],
+        "metadata": {
+            "desc": "A classic homemade lasagna with layers of pasta, meat sauce, ricotta cheese, and melted mozzarella.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as comforting and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Lasagna",
+                "Pasta",
+                "Italian",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "8": {
+        "id": 8,
+        "name": "Chicken Alfredo Pasta",
+        "status": "Y",
+        "chef": "Gordon Ramsay",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Fettuccine Pasta": "400g"
+            },
+            {
+                "Chicken Breast": "2, thinly sliced"
+            },
+            {
+                "Heavy Cream": "1 cup"
+            },
+            {
+                "Butter": "1/4 cup"
+            },
+            {
+                "Garlic": "3 cloves, minced"
+            },
+            {
+                "Parmesan Cheese": "1 cup, grated"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            },
+            {
+                "Fresh Parsley": "for garnish"
+            }
+        ],
+        "steps": [
+            "1. Cook fettuccine pasta according to package instructions, then drain and set aside.",
+            "2. Season chicken breast slices with salt and black pepper.",
+            "3. In a large skillet, melt butter over medium heat.",
+            "4. Add minced garlic to the skillet and saut\u00c3\u00a9 until fragrant.",
+            "5. Add chicken slices to the skillet and cook until browned and cooked through, about 5-6 minutes per side.",
+            "6. Remove chicken from the skillet and set aside.",
+            "7. In the same skillet, pour in heavy cream and bring to a simmer.",
+            "8. Stir in grated Parmesan cheese until melted and smooth.",
+            "9. Return cooked chicken slices to the skillet and toss to coat in the sauce.",
+            "10. Add cooked fettuccine pasta to the skillet and toss until evenly coated in the sauce.",
+            "11. Cook for an additional 2-3 minutes until heated through.",
+            "12. Season with additional salt and black pepper if needed.",
+            "13. Garnish with fresh parsley before serving."
+        ],
+        "metadata": {
+            "desc": "Creamy and indulgent chicken Alfredo pasta made with tender chicken slices and a rich Parmesan cream sauce.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as decadent and flavorful!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Pasta",
+                "Alfredo",
+                "Chicken",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "9": {
+        "id": 9,
+        "name": "Vegetable Biryani",
+        "status": "Y",
+        "chef": "Sanjeev Kapoor",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Basmati Rice": "2 cups"
+            },
+            {
+                "Mixed Vegetables": "2 cups (carrots, peas, beans, cauliflower, etc.)"
+            },
+            {
+                "Onion": "2, thinly sliced"
+            },
+            {
+                "Tomato": "1, chopped"
+            },
+            {
+                "Ginger-Garlic Paste": "2 tbsp"
+            },
+            {
+                "Green Chili": "2, slit lengthwise"
+            },
+            {
+                "Yogurt": "1/2 cup"
+            },
+            {
+                "Turmeric Powder": "1/2 tsp"
+            },
+            {
+                "Red Chili Powder": "1 tsp"
+            },
+            {
+                "Biryani Masala": "2 tbsp"
+            },
+            {
+                "Ghee": "3 tbsp"
+            },
+            {
+                "Cashews": "1/4 cup"
+            },
+            {
+                "Raisins": "1/4 cup"
+            },
+            {
+                "Fresh Coriander": "a handful, chopped"
+            },
+            {
+                "Fresh Mint": "a handful, chopped"
+            },
+            {
+                "Salt": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Rinse basmati rice under cold water until the water runs clear, then soak in water for 30 minutes. Drain and set aside.",
+            "2. In a large skillet or Dutch oven, heat ghee over medium heat.",
+            "3. Add sliced onions and saut\u00c3\u00a9 until golden brown and caramelized.",
+            "4. Add ginger-garlic paste and green chilies, and saut\u00c3\u00a9 for another minute.",
+            "5. Stir in chopped tomatoes and cook until they turn mushy.",
+            "6. Add mixed vegetables to the skillet and saut\u00c3\u00a9 for 2-3 minutes.",
+            "7. In a bowl, whisk together yogurt, turmeric powder, red chili powder, and biryani masala.",
+            "8. Pour the yogurt mixture into the skillet and mix well with the vegetables.",
+            "9. Add soaked and drained basmati rice to the skillet, along with 3 cups of water and salt to taste.",
+            "10. Bring the mixture to a boil, then reduce the heat to low, cover, and simmer for 15-20 minutes until the rice is cooked and the water is absorbed.",
+            "11. In a separate pan, heat a tablespoon of ghee and fry cashews and raisins until golden brown.",
+            "12. Garnish the cooked biryani with fried cashews, raisins, chopped fresh coriander, and mint leaves.",
+            "13. Serve hot with raita or salad."
+        ],
+        "metadata": {
+            "desc": "A fragrant and flavorful Indian rice dish made with long-grain basmati rice, mixed vegetables, and aromatic spices.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as authentic and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Biryani",
+                "Rice",
+                "Indian",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "10": {
+        "id": 10,
+        "name": "Caprese Stuffed Portobello Mushrooms",
+        "status": "Y",
+        "chef": "Giada De Laurentiis",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Portobello Mushrooms": "4"
+            },
+            {
+                "Tomato": "1, thinly sliced"
+            },
+            {
+                "Fresh Mozzarella Cheese": "200g, sliced"
+            },
+            {
+                "Fresh Basil Leaves": "a handful"
+            },
+            {
+                "Balsamic Glaze": "for drizzling"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            },
+            {
+                "Extra Virgin Olive Oil": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 200\u00c2\u00b0C (400\u00c2\u00b0F).",
+            "2. Clean the portobello mushrooms by gently wiping them with a damp paper towel to remove any dirt.",
+            "3. Remove the stems and gills from the mushrooms and discard.",
+            "4. Brush both sides of the mushrooms with olive oil and season with salt and black pepper.",
+            "5. Place the mushrooms on a baking sheet lined with parchment paper, gill side up.",
+            "6. Layer tomato slices, fresh mozzarella slices, and basil leaves inside each mushroom cap.",
+            "7. Drizzle balsamic glaze over the stuffed mushrooms.",
+            "8. Bake in the preheated oven for 15-20 minutes, or until the cheese is melted and bubbly.",
+            "9. Remove from the oven and let cool for a few minutes before serving.",
+            "10. Garnish with additional fresh basil leaves and a drizzle of balsamic glaze if desired."
+        ],
+        "metadata": {
+            "desc": "Portobello mushrooms stuffed with ripe tomatoes, creamy mozzarella cheese, and fresh basil, then baked to perfection.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as a delightful appetizer or side dish!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Mushrooms",
+                "Caprese",
+                "Vegetarian",
+                "Appetizer"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "11": {
+        "id": 11,
+        "name": "Lemon Garlic Roasted Chicken",
+        "status": "Y",
+        "chef": "Jamie Oliver",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Whole Chicken": "1, about 2 kg"
+            },
+            {
+                "Lemon": "2, sliced"
+            },
+            {
+                "Garlic": "1 bulb, halved"
+            },
+            {
+                "Fresh Rosemary": "a few sprigs"
+            },
+            {
+                "Olive Oil": "3 tbsp"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 200\u00c2\u00b0C (400\u00c2\u00b0F).",
+            "2. Rinse the chicken inside and out under cold water, then pat dry with paper towels.",
+            "3. Season the cavity of the chicken with salt and black pepper.",
+            "4. Stuff the cavity with lemon slices, garlic halves, and fresh rosemary sprigs.",
+            "5. Tie the legs together with kitchen twine and tuck the wings underneath the body of the chicken.",
+            "6. Place the chicken in a roasting pan or baking dish.",
+            "7. Drizzle olive oil over the chicken and rub it all over the skin.",
+            "8. Season the outside of the chicken generously with salt and black pepper.",
+            "9. Roast the chicken in the preheated oven for 1 hour and 15 minutes to 1 hour and 30 minutes, or until the skin is golden brown and crispy and the internal temperature reaches 75\u00c2\u00b0C (165\u00c2\u00b0F) when tested with a meat thermometer.",
+            "10. Remove the chicken from the oven and let it rest for 10-15 minutes before carving.",
+            "11. Serve hot with your favorite sides."
+        ],
+        "metadata": {
+            "desc": "A succulent whole chicken roasted with lemon, garlic, and fresh rosemary, resulting in juicy meat and crispy skin.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as flavorful and juicy!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chicken",
+                "Roast",
+                "Non-veg",
+                "Main Dish"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "12": {
+        "id": 12,
+        "name": "Vegetable Paella",
+        "status": "Y",
+        "chef": "Jose Andres",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Arborio Rice": "1 1/2 cups"
+            },
+            {
+                "Vegetable Broth": "3 cups"
+            },
+            {
+                "Onion": "1, diced"
+            },
+            {
+                "Bell Pepper": "1, diced"
+            },
+            {
+                "Tomato": "1, diced"
+            },
+            {
+                "Green Beans": "150g, trimmed and halved"
+            },
+            {
+                "Artichoke Hearts": "200g, quartered"
+            },
+            {
+                "Frozen Peas": "1/2 cup"
+            },
+            {
+                "Garlic": "3 cloves, minced"
+            },
+            {
+                "Smoked Paprika": "1 tsp"
+            },
+            {
+                "Saffron Threads": "1/2 tsp, soaked in 2 tbsp warm water"
+            },
+            {
+                "Lemon": "1, zest and juice"
+            },
+            {
+                "Olive Oil": "3 tbsp"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            }
+        ],
+        "steps": [
+            "1. In a large paella pan or skillet, heat olive oil over medium heat.",
+            "2. Add diced onion, bell pepper, and minced garlic to the pan, and saut\u00c3\u00a9 until softened.",
+            "3. Stir in diced tomato and cook for another 2-3 minutes.",
+            "4. Add arborio rice to the pan and toast for 2 minutes, stirring frequently.",
+            "5. Pour vegetable broth into the pan and stir in smoked paprika, saffron threads with soaking water, lemon zest, salt, and black pepper.",
+            "6. Bring the mixture to a simmer, then reduce heat to low and cover the pan with a lid.",
+            "7. Cook for 15-20 minutes, or until the rice is almost tender and most of the liquid is absorbed.",
+            "8. Arrange green beans, artichoke hearts, and frozen peas on top of the rice.",
+            "9. Cover and cook for an additional 5-10 minutes, or until the vegetables are heated through and the rice is fully cooked.",
+            "10. Remove from heat and let the paella rest for 5 minutes before serving.",
+            "11. Drizzle lemon juice over the paella and garnish with additional lemon wedges if desired."
+        ],
+        "metadata": {
+            "desc": "A flavorful and colorful Spanish rice dish loaded with a variety of vegetables and infused with saffron and smoked paprika.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as authentic and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Paella",
+                "Rice",
+                "Spanish",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "13": {
+        "id": 13,
+        "name": "Crispy Baked Chicken Wings",
+        "status": "Y",
+        "chef": "Alton Brown",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Chicken Wings": "2 lbs"
+            },
+            {
+                "Baking Powder": "2 tbsp"
+            },
+            {
+                "Salt": "1 tsp"
+            },
+            {
+                "Black Pepper": "1/2 tsp"
+            },
+            {
+                "Garlic Powder": "1/2 tsp"
+            },
+            {
+                "Paprika": "1/2 tsp"
+            },
+            {
+                "Cayenne Pepper": "1/4 tsp"
+            },
+            {
+                "Buffalo Sauce": "1/2 cup"
+            },
+            {
+                "Butter": "4 tbsp"
+            },
+            {
+                "Honey": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 220\u00c2\u00b0C (425\u00c2\u00b0F).",
+            "2. Line a baking sheet with aluminum foil and place a wire rack on top.",
+            "3. In a large bowl, toss chicken wings with baking powder, salt, black pepper, garlic powder, paprika, and cayenne pepper until evenly coated.",
+            "4. Arrange the wings in a single layer on the wire rack, leaving space between each wing.",
+            "5. Bake in the preheated oven for 45-50 minutes, flipping halfway through, until the wings are golden brown and crispy.",
+            "6. While the wings are baking, prepare the buffalo sauce by melting butter in a saucepan over medium heat.",
+            "7. Stir in honey and buffalo sauce until well combined and heated through.",
+            "8. Remove the wings from the oven and transfer them to a large bowl.",
+            "9. Pour the buffalo sauce mixture over the wings and toss until evenly coated.",
+            "10. Return the wings to the wire rack and bake for an additional 5 minutes to set the sauce.",
+            "11. Remove from the oven and let cool for a few minutes before serving with ranch or blue cheese dressing and celery sticks."
+        ],
+        "metadata": {
+            "desc": "Crispy baked chicken wings tossed in a tangy and spicy buffalo sauce, perfect for game day or any gathering.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as addictive and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chicken Wings",
+                "Baked",
+                "Buffalo",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "14": {
+        "id": 14,
+        "name": "Mushroom Risotto",
+        "status": "Y",
+        "chef": "Gordon Ramsay",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Arborio Rice": "1 cup"
+            },
+            {
+                "Vegetable Broth": "4 cups"
+            },
+            {
+                "Mushrooms": "200g, sliced"
+            },
+            {
+                "Onion": "1, finely chopped"
+            },
+            {
+                "Garlic": "2 cloves, minced"
+            },
+            {
+                "Dry White Wine": "1/2 cup"
+            },
+            {
+                "Butter": "2 tbsp"
+            },
+            {
+                "Parmesan Cheese": "1/2 cup, grated"
+            },
+            {
+                "Fresh Thyme": "1 tbsp, chopped"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            },
+            {
+                "Olive Oil": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. In a saucepan, heat vegetable broth over low heat and keep it warm.",
+            "2. In a large skillet, heat olive oil over medium heat.",
+            "3. Add chopped onion and minced garlic to the skillet, and saut\u00c3\u00a9 until softened.",
+            "4. Add sliced mushrooms to the skillet and cook until browned and tender.",
+            "5. Stir in arborio rice and cook for 1-2 minutes until lightly toasted.",
+            "6. Pour in dry white wine and cook until it is absorbed by the rice.",
+            "7. Begin adding warm vegetable broth to the skillet, one ladleful at a time, stirring frequently and allowing each addition to be absorbed before adding more.",
+            "8. Continue this process until the rice is creamy and cooked to your desired consistency, about 20-25 minutes.",
+            "9. Stir in butter, grated Parmesan cheese, and chopped fresh thyme until melted and well combined.",
+            "10. Season with salt and black pepper to taste.",
+            "11. Remove from heat and let the risotto rest for a few minutes before serving."
+        ],
+        "metadata": {
+            "desc": "Creamy and flavorful risotto made with arborio rice, mushrooms, white wine, and Parmesan cheese.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as rich and comforting!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Risotto",
+                "Mushroom",
+                "Italian",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "15": {
+        "id": 15,
+        "name": "Thai Red Curry with Tofu",
+        "status": "Y",
+        "chef": "Ming Tsai",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Tofu": "400g, firm or extra-firm, cubed"
+            },
+            {
+                "Red Curry Paste": "3 tbsp"
+            },
+            {
+                "Coconut Milk": "1 can (400ml)"
+            },
+            {
+                "Vegetable Broth": "1 cup"
+            },
+            {
+                "Bell Pepper": "1, sliced"
+            },
+            {
+                "Zucchini": "1, sliced"
+            },
+            {
+                "Carrot": "1, sliced"
+            },
+            {
+                "Broccoli": "1 cup, florets"
+            },
+            {
+                "Green Beans": "1 cup"
+            },
+            {
+                "Basil Leaves": "a handful"
+            },
+            {
+                "Fish Sauce": "2 tbsp, or soy sauce for vegetarian version"
+            },
+            {
+                "Brown Sugar": "1 tbsp"
+            },
+            {
+                "Lime": "1, juiced"
+            },
+            {
+                "Cooked Rice": "for serving"
+            }
+        ],
+        "steps": [
+            "1. Heat a large skillet or wok over medium heat.",
+            "2. Add red curry paste to the skillet and cook for 1-2 minutes until fragrant.",
+            "3. Stir in coconut milk and vegetable broth, and bring to a simmer.",
+            "4. Add cubed tofu to the skillet and simmer for 5 minutes.",
+            "5. Add sliced bell pepper, zucchini, carrot, broccoli, and green beans to the skillet, and cook until vegetables are tender-crisp, about 5-7 minutes.",
+            "6. Stir in basil leaves, fish sauce, brown sugar, and lime juice.",
+            "7. Taste and adjust seasoning as needed.",
+            "8. Serve hot over cooked rice."
+        ],
+        "metadata": {
+            "desc": "A fragrant and spicy Thai curry made with tofu and a variety of vegetables in a creamy coconut milk base.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as flavorful and satisfying!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Thai",
+                "Curry",
+                "Tofu",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "16": {
+        "id": 16,
+        "name": "Spinach and Feta Stuffed Chicken Breast",
+        "status": "Y",
+        "chef": "Ina Garten",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Chicken Breast": "4, boneless, skinless"
+            },
+            {
+                "Baby Spinach": "2 cups, chopped"
+            },
+            {
+                "Feta Cheese": "1/2 cup, crumbled"
+            },
+            {
+                "Garlic": "2 cloves, minced"
+            },
+            {
+                "Olive Oil": "2 tbsp"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            },
+            {
+                "Paprika": "1/2 tsp"
+            },
+            {
+                "Lemon Zest": "1 tsp"
+            },
+            {
+                "Fresh Parsley": "2 tbsp, chopped"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 200\u00c2\u00b0C (400\u00c2\u00b0F).",
+            "2. In a skillet, heat olive oil over medium heat.",
+            "3. Add minced garlic and chopped baby spinach to the skillet, and saut\u00c3\u00a9 until the spinach wilts.",
+            "4. Remove the skillet from heat and stir in crumbled feta cheese, lemon zest, and chopped fresh parsley. Season with salt and black pepper to taste.",
+            "5. Butterfly each chicken breast by slicing horizontally almost all the way through, then open them up like a book.",
+            "6. Place a portion of the spinach and feta mixture onto one side of each chicken breast, then fold the other side over to enclose the filling.",
+            "7. Season the outside of the chicken breasts with salt, black pepper, and paprika.",
+            "8. Heat a large oven-safe skillet over medium-high heat.",
+            "9. Add stuffed chicken breasts to the skillet and cook for 3-4 minutes per side until golden brown.",
+            "10. Transfer the skillet to the preheated oven and bake for 15-20 minutes, or until the chicken is cooked through and no longer pink in the center.",
+            "11. Remove from the oven and let the chicken rest for a few minutes before serving."
+        ],
+        "metadata": {
+            "desc": "Tender chicken breasts stuffed with a savory mixture of spinach, feta cheese, garlic, and herbs, then baked until golden brown.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as elegant and flavorful!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chicken",
+                "Stuffed",
+                "Spinach",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "17": {
+        "id": 17,
+        "name": "Lemon Blueberry Muffins",
+        "status": "Y",
+        "chef": "Joy Wilson",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "All-Purpose Flour": "2 cups"
+            },
+            {
+                "Baking Powder": "2 tsp"
+            },
+            {
+                "Baking Soda": "1/2 tsp"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Granulated Sugar": "3/4 cup"
+            },
+            {
+                "Eggs": "2"
+            },
+            {
+                "Butter": "1/2 cup, melted and cooled"
+            },
+            {
+                "Greek Yogurt": "1 cup"
+            },
+            {
+                "Lemon Zest": "2 tbsp"
+            },
+            {
+                "Lemon Juice": "2 tbsp"
+            },
+            {
+                "Vanilla Extract": "1 tsp"
+            },
+            {
+                "Blueberries": "1 1/2 cups, fresh or frozen"
+            },
+            {
+                "Turbinado Sugar": "for topping"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 190\u00c2\u00b0C (375\u00c2\u00b0F).",
+            "2. Line a muffin tin with paper liners or grease with non-stick cooking spray.",
+            "3. In a large bowl, whisk together all-purpose flour, baking powder, baking soda, salt, and granulated sugar.",
+            "4. In a separate bowl, beat eggs, then stir in melted butter, Greek yogurt, lemon zest, lemon juice, and vanilla extract until well combined.",
+            "5. Pour the wet ingredients into the dry ingredients and mix until just combined.",
+            "6. Gently fold in blueberries until evenly distributed throughout the batter.",
+            "7. Divide the batter evenly among the muffin cups, filling each about 2/3 full.",
+            "8. Sprinkle turbinado sugar over the tops of the muffins.",
+            "9. Bake in the preheated oven for 18-20 minutes, or until a toothpick inserted into the center comes out clean.",
+            "10. Remove from the oven and let the muffins cool in the tin for 5 minutes before transferring to a wire rack to cool completely."
+        ],
+        "metadata": {
+            "desc": "Moist and fluffy lemon-flavored muffins studded with juicy blueberries, perfect for breakfast or a snack.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as light and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Muffins",
+                "Blueberry",
+                "Lemon",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "18": {
+        "id": 18,
+        "name": "Spaghetti Carbonara",
+        "status": "Y",
+        "chef": "Jamie Oliver",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Spaghetti": "400g"
+            },
+            {
+                "Pancetta or Bacon": "200g, diced"
+            },
+            {
+                "Eggs": "4"
+            },
+            {
+                "Parmesan Cheese": "1 cup, grated"
+            },
+            {
+                "Black Pepper": "1 tsp, freshly ground"
+            },
+            {
+                "Salt": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Cook spaghetti in a large pot of boiling salted water until al dente, according to package instructions.",
+            "2. While the spaghetti is cooking, heat a skillet over medium heat and add diced pancetta or bacon.",
+            "3. Cook until the pancetta or bacon is crispy and golden brown, then remove from heat and set aside.",
+            "4. In a bowl, whisk together eggs, grated Parmesan cheese, and freshly ground black pepper until well combined.",
+            "5. When the spaghetti is cooked, drain it, reserving a cup of pasta cooking water.",
+            "6. Immediately toss the hot spaghetti in the skillet with the crispy pancetta or bacon, allowing the residual heat to cook the eggs and melt the cheese.",
+            "7. If the pasta seems dry, add a splash of reserved pasta cooking water to create a creamy sauce.",
+            "8. Season with salt to taste, if necessary.",
+            "9. Serve hot, garnished with additional grated Parmesan cheese and black pepper."
+        ],
+        "metadata": {
+            "desc": "A classic Italian pasta dish made with spaghetti, crispy pancetta or bacon, eggs, and Parmesan cheese, resulting in a creamy and flavorful sauce.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as authentic and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Carbonara",
+                "Pasta",
+                "Italian",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "19": {
+        "id": 19,
+        "name": "Shrimp Scampi",
+        "status": "Y",
+        "chef": "Emeril Lagasse",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Shrimp": "500g, peeled and deveined"
+            },
+            {
+                "Linguine Pasta": "300g"
+            },
+            {
+                "Butter": "4 tbsp"
+            },
+            {
+                "Olive Oil": "2 tbsp"
+            },
+            {
+                "Garlic": "4 cloves, minced"
+            },
+            {
+                "Red Chili Flakes": "1/2 tsp"
+            },
+            {
+                "Dry White Wine": "1/2 cup"
+            },
+            {
+                "Lemon": "1, juiced and zested"
+            },
+            {
+                "Fresh Parsley": "2 tbsp, chopped"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            }
+        ],
+        "steps": [
+            "1. Cook linguine pasta according to package instructions, then drain and set aside.",
+            "2. In a large skillet, melt butter and olive oil over medium heat.",
+            "3. Add minced garlic and red chili flakes to the skillet, and saut\u00c3\u00a9 until garlic is fragrant.",
+            "4. Add shrimp to the skillet and cook for 2-3 minutes per side until pink and opaque.",
+            "5. Remove shrimp from the skillet and set aside.",
+            "6. Deglaze the skillet with dry white wine, scraping up any browned bits from the bottom.",
+            "7. Cook for 2-3 minutes until the wine has reduced by half.",
+            "8. Return cooked linguine pasta and shrimp to the skillet.",
+            "9. Add lemon juice, lemon zest, and chopped fresh parsley to the skillet, and toss until well combined.",
+            "10. Season with salt and black pepper to taste.",
+            "11. Serve hot, garnished with additional chopped parsley if desired."
+        ],
+        "metadata": {
+            "desc": "Tender shrimp cooked in a garlic and white wine sauce, served over linguine pasta and garnished with fresh parsley.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as flavorful and easy to make!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Shrimp",
+                "Scampi",
+                "Seafood",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "20": {
+        "id": 20,
+        "name": "Chicken Tikka Masala",
+        "status": "Y",
+        "chef": "Vikas Khanna",
+        "type": [
+            "Non-veg"
+        ],
+        "ingredients": [
+            {
+                "Chicken Thighs": "500g, boneless, skinless, cut into bite-sized pieces"
+            },
+            {
+                "Yogurt": "1 cup"
+            },
+            {
+                "Ginger-Garlic Paste": "2 tbsp"
+            },
+            {
+                "Garam Masala": "2 tsp"
+            },
+            {
+                "Turmeric": "1 tsp"
+            },
+            {
+                "Cumin": "1 tsp"
+            },
+            {
+                "Coriander": "1 tsp"
+            },
+            {
+                "Chili Powder": "1/2 tsp"
+            },
+            {
+                "Tomato Puree": "1 cup"
+            },
+            {
+                "Heavy Cream": "1/2 cup"
+            },
+            {
+                "Butter": "2 tbsp"
+            },
+            {
+                "Fresh Coriander": "2 tbsp, chopped"
+            },
+            {
+                "Salt": "to taste"
+            }
+        ],
+        "steps": [
+            "1. In a bowl, combine yogurt, ginger-garlic paste, garam masala, turmeric, cumin, coriander, chili powder, and salt.",
+            "2. Add chicken pieces to the bowl and marinate for at least 30 minutes, or up to overnight in the refrigerator.",
+            "3. Preheat your grill or broiler to medium-high heat.",
+            "4. Thread marinated chicken pieces onto skewers and grill or broil for 8-10 minutes, turning occasionally, until cooked through and slightly charred.",
+            "5. In a saucepan, melt butter over medium heat.",
+            "6. Add tomato puree to the saucepan and simmer for 5 minutes.",
+            "7. Stir in heavy cream and continue to simmer for another 2-3 minutes.",
+            "8. Add grilled chicken tikka pieces to the saucepan and simmer for an additional 5 minutes, allowing the flavors to meld.",
+            "9. Garnish with chopped fresh coriander before serving.",
+            "10. Serve hot with rice or naan bread."
+        ],
+        "metadata": {
+            "desc": "A popular Indian dish featuring tender grilled chicken tikka pieces in a creamy and flavorful tomato-based sauce, seasoned with aromatic spices.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as rich and satisfying!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chicken Tikka Masala",
+                "Indian",
+                "Curry",
+                "Non-veg"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "21": {
+        "id": 21,
+        "name": "Peanut Butter Chocolate Chip Cookies",
+        "status": "Y",
+        "chef": "Sally McKenney",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "All-Purpose Flour": "1 cup"
+            },
+            {
+                "Baking Soda": "1/2 tsp"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Unsalted Butter": "1/2 cup, softened"
+            },
+            {
+                "Creamy Peanut Butter": "1/2 cup"
+            },
+            {
+                "Granulated Sugar": "1/2 cup"
+            },
+            {
+                "Brown Sugar": "1/4 cup"
+            },
+            {
+                "Egg": "1"
+            },
+            {
+                "Vanilla Extract": "1 tsp"
+            },
+            {
+                "Chocolate Chips": "1/2 cup"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. In a medium bowl, whisk together all-purpose flour, baking soda, and salt.",
+            "3. In a large bowl, cream together softened unsalted butter, creamy peanut butter, granulated sugar, and brown sugar until smooth and creamy.",
+            "4. Beat in egg and vanilla extract until well combined.",
+            "5. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
+            "6. Fold in chocolate chips until evenly distributed throughout the cookie dough.",
+            "7. Drop rounded tablespoons of cookie dough onto a baking sheet lined with parchment paper, spacing them about 2 inches apart.",
+            "8. Bake in the preheated oven for 10-12 minutes, or until the edges are golden brown.",
+            "9. Allow the cookies to cool on the baking sheet for 5 minutes before transferring them to a wire rack to cool completely."
+        ],
+        "metadata": {
+            "desc": "Soft and chewy peanut butter cookies studded with chocolate chips, perfect for peanut butter and chocolate lovers.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as addictive and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Peanut Butter Cookies",
+                "Chocolate Chip Cookies",
+                "Dessert",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "22": {
+        "id": 22,
+        "name": "Classic Chocolate Brownies",
+        "status": "Y",
+        "chef": "Ina Garten",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Unsalted Butter": "1 cup"
+            },
+            {
+                "Granulated Sugar": "2 cups"
+            },
+            {
+                "Cocoa Powder": "3/4 cup"
+            },
+            {
+                "Eggs": "4"
+            },
+            {
+                "Vanilla Extract": "1 tsp"
+            },
+            {
+                "All-Purpose Flour": "1 cup"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Walnuts or Pecans": "1 cup, chopped (optional)"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. Grease a 9x13-inch baking pan and line it with parchment paper, leaving an overhang on the sides for easy removal.",
+            "3. In a large saucepan, melt the unsalted butter over low heat.",
+            "4. Remove from heat and whisk in granulated sugar and cocoa powder until well combined.",
+            "5. Add eggs one at a time, mixing well after each addition.",
+            "6. Stir in vanilla extract.",
+            "7. Fold in all-purpose flour and salt until just combined. Be careful not to overmix.",
+            "8. If using, fold in chopped walnuts or pecans.",
+            "9. Pour the batter into the prepared baking pan and spread it evenly with a spatula.",
+            "10. Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out with moist crumbs.",
+            "11. Allow the brownies to cool completely in the pan before cutting into squares."
+        ],
+        "metadata": {
+            "desc": "Rich and fudgy chocolate brownies, perfect for chocolate lovers and special occasions.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as indulgent and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chocolate Brownies",
+                "Brownies",
+                "Dessert",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "23": {
+        "id": 23,
+        "name": "New York Cheesecake",
+        "status": "Y",
+        "chef": "Martha Stewart",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Graham Crackers": "1 1/2 cups, finely crushed"
+            },
+            {
+                "Granulated Sugar": "1/4 cup"
+            },
+            {
+                "Unsalted Butter": "1/3 cup, melted"
+            },
+            {
+                "Cream Cheese": "900g, softened"
+            },
+            {
+                "Granulated Sugar": "1 cup"
+            },
+            {
+                "Sour Cream": "1 cup"
+            },
+            {
+                "Vanilla Extract": "1 tsp"
+            },
+            {
+                "Lemon Zest": "1 tsp"
+            },
+            {
+                "Eggs": "4"
+            },
+            {
+                "All-Purpose Flour": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. In a mixing bowl, combine finely crushed graham crackers, 1/4 cup granulated sugar, and melted unsalted butter.",
+            "3. Press the mixture into the bottom of a 9-inch springform pan, creating an even crust.",
+            "4. In a large mixing bowl, beat softened cream cheese until smooth.",
+            "5. Add 1 cup granulated sugar and beat until creamy.",
+            "6. Mix in sour cream, vanilla extract, and lemon zest until well combined.",
+            "7. Add eggs one at a time, mixing well after each addition.",
+            "8. Stir in all-purpose flour until just combined.",
+            "9. Pour the cream cheese mixture over the prepared crust in the springform pan.",
+            "10. Tap the pan gently on the counter to release any air bubbles.",
+            "11. Bake in the preheated oven for 45-50 minutes, or until the edges are set but the center is still slightly jiggly.",
+            "12. Turn off the oven and leave the cheesecake inside with the door closed for 1 hour to cool gradually.",
+            "13. Remove the cheesecake from the oven and refrigerate for at least 4 hours or overnight before serving."
+        ],
+        "metadata": {
+            "desc": "A classic New York-style cheesecake with a buttery graham cracker crust, rich cream cheese filling, and creamy texture.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as decadent and creamy!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Cheesecake",
+                "Dessert",
+                "New York Cheesecake",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "24": {
+        "id": 24,
+        "name": "Tiramisu",
+        "status": "Y",
+        "chef": "Giorgio Locatelli",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Egg Yolks": "4"
+            },
+            {
+                "Granulated Sugar": "1/2 cup"
+            },
+            {
+                "Mascarpone Cheese": "500g"
+            },
+            {
+                "Heavy Cream": "1 cup"
+            },
+            {
+                "Espresso Coffee": "1 1/2 cups, strong, cooled"
+            },
+            {
+                "Amaretto Liqueur": "1/4 cup"
+            },
+            {
+                "Ladyfinger Cookies": "24"
+            },
+            {
+                "Cocoa Powder": "2 tbsp, for dusting"
+            }
+        ],
+        "steps": [
+            "1. In a heatproof bowl, whisk together egg yolks and granulated sugar until pale and creamy.",
+            "2. Place the bowl over a pot of simmering water, making sure the bottom of the bowl doesn't touch the water.",
+            "3. Whisk continuously until the mixture thickens and doubles in volume, about 5-7 minutes.",
+            "4. Remove the bowl from heat and let it cool slightly.",
+            "5. In a separate bowl, beat mascarpone cheese until smooth.",
+            "6. In another bowl, whip heavy cream until soft peaks form.",
+            "7. Gently fold whipped cream into the mascarpone cheese until well combined.",
+            "8. Fold the egg yolk mixture into the mascarpone mixture until smooth and creamy.",
+            "9. In a shallow dish, combine cooled espresso coffee and amaretto liqueur.",
+            "10. Quickly dip each ladyfinger cookie into the espresso mixture, making sure not to soak them too long.",
+            "11. Arrange a layer of dipped ladyfinger cookies in the bottom of a serving dish.",
+            "12. Spread half of the mascarpone mixture over the ladyfinger layer.",
+            "13. Repeat with another layer of dipped ladyfinger cookies and the remaining mascarpone mixture.",
+            "14. Cover and refrigerate the tiramisu for at least 4 hours or overnight to set.",
+            "15. Before serving, dust the top of the tiramisu with cocoa powder."
+        ],
+        "metadata": {
+            "desc": "A classic Italian dessert made with layers of coffee-soaked ladyfinger cookies and creamy mascarpone cheese, dusted with cocoa powder.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as indulgent and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Tiramisu",
+                "Dessert",
+                "Italian",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "25": {
+        "id": 25,
+        "name": "Apple Crisp",
+        "status": "Y",
+        "chef": "Bobby Flay",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Apples": "6 cups, peeled, cored, and sliced"
+            },
+            {
+                "Granulated Sugar": "1/2 cup"
+            },
+            {
+                "Lemon Juice": "2 tbsp"
+            },
+            {
+                "Ground Cinnamon": "1 tsp"
+            },
+            {
+                "Ground Nutmeg": "1/2 tsp"
+            },
+            {
+                "All-Purpose Flour": "1 cup"
+            },
+            {
+                "Rolled Oats": "1 cup"
+            },
+            {
+                "Brown Sugar": "1/2 cup, packed"
+            },
+            {
+                "Salt": "1/2 tsp"
+            },
+            {
+                "Unsalted Butter": "1/2 cup, cold, cut into small pieces"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. In a large bowl, combine sliced apples, granulated sugar, lemon juice, ground cinnamon, and ground nutmeg.",
+            "3. Toss until the apples are evenly coated with the sugar and spices.",
+            "4. Transfer the apple mixture to a greased 9x13-inch baking dish, spreading it out into an even layer.",
+            "5. In a separate bowl, combine all-purpose flour, rolled oats, brown sugar, and salt.",
+            "6. Cut in cold unsalted butter using a pastry cutter or your fingers until the mixture resembles coarse crumbs.",
+            "7. Sprinkle the crumb mixture evenly over the apples in the baking dish.",
+            "8. Bake in the preheated oven for 40-45 minutes, or until the topping is golden brown and the apples are tender and bubbly.",
+            "9. Remove from the oven and let the apple crisp cool slightly before serving.",
+            "10. Serve warm with vanilla ice cream or whipped cream, if desired."
+        ],
+        "metadata": {
+            "desc": "A comforting dessert made with tender spiced apples topped with a buttery oat crumble, perfect for fall or anytime you're craving a cozy treat.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as comforting and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Apple Crisp",
+                "Dessert",
+                "Fruit",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "26": {
+        "id": 26,
+        "name": "Chocolate Mousse",
+        "status": "Y",
+        "chef": "Jacques Torres",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Dark Chocolate": "200g, chopped"
+            },
+            {
+                "Unsalted Butter": "2 tbsp"
+            },
+            {
+                "Eggs": "4, separated"
+            },
+            {
+                "Granulated Sugar": "1/4 cup"
+            },
+            {
+                "Vanilla Extract": "1 tsp"
+            },
+            {
+                "Whipping Cream": "1 cup"
+            },
+            {
+                "Powdered Sugar": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "1. Melt chopped dark chocolate and unsalted butter in a heatproof bowl set over a pot of simmering water, stirring until smooth.",
+            "2. Remove from heat and let the chocolate mixture cool slightly.",
+            "3. In a separate bowl, beat egg yolks with granulated sugar until pale and thick.",
+            "4. Stir vanilla extract into the egg yolk mixture.",
+            "5. Gradually whisk the melted chocolate mixture into the egg yolk mixture until well combined.",
+            "6. In another bowl, beat egg whites until stiff peaks form.",
+            "7. Gently fold the beaten egg whites into the chocolate mixture until no streaks remain.",
+            "8. In yet another bowl, whip whipping cream with powdered sugar until soft peaks form.",
+            "9. Gently fold the whipped cream into the chocolate mixture until smooth and evenly combined.",
+            "10. Divide the chocolate mousse among serving glasses or bowls.",
+            "11. Refrigerate for at least 2 hours, or until set.",
+            "12. Serve chilled, garnished with whipped cream and chocolate shavings if desired."
+        ],
+        "metadata": {
+            "desc": "A silky and decadent chocolate mousse made with rich dark chocolate, whipped cream, and fluffy egg whites, perfect for special occasions.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as luxurious and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Chocolate Mousse",
+                "Dessert",
+                "Chocolate",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "27": {
+        "id": 27,
+        "name": "Key Lime Pie",
+        "status": "Y",
+        "chef": "Emeril Lagasse",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Graham Cracker Crumbs": "1 1/2 cups"
+            },
+            {
+                "Granulated Sugar": "1/4 cup"
+            },
+            {
+                "Unsalted Butter": "1/3 cup, melted"
+            },
+            {
+                "Sweetened Condensed Milk": "1 can (14 ounces)"
+            },
+            {
+                "Key Lime Juice": "3/4 cup"
+            },
+            {
+                "Lime Zest": "1 tbsp"
+            },
+            {
+                "Egg Yolks": "4"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. In a bowl, combine graham cracker crumbs, granulated sugar, and melted unsalted butter until well mixed.",
+            "3. Press the mixture into the bottom and up the sides of a 9-inch pie dish to form the crust.",
+            "4. In another bowl, whisk together sweetened condensed milk, key lime juice, lime zest, and egg yolks until smooth.",
+            "5. Pour the filling into the prepared crust.",
+            "6. Bake in the preheated oven for 15-20 minutes, or until the edges are set but the center is still slightly jiggly.",
+            "7. Remove from the oven and let the pie cool to room temperature.",
+            "8. Refrigerate for at least 2 hours, or until completely chilled and set.",
+            "9. Serve chilled, garnished with whipped cream and lime slices if desired."
+        ],
+        "metadata": {
+            "desc": "A tangy and refreshing pie made with a buttery graham cracker crust and a creamy filling of key lime juice, sweetened condensed milk, and egg yolks.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as refreshing and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Key Lime Pie",
+                "Pie",
+                "Dessert",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "28": {
+        "id": 28,
+        "name": "Banoffee Pie",
+        "status": "Y",
+        "chef": "Jamie Oliver",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Digestive Biscuits": "200g, crushed"
+            },
+            {
+                "Unsalted Butter": "100g, melted"
+            },
+            {
+                "Bananas": "4, ripe, sliced"
+            },
+            {
+                "Dulce de Leche": "1 can (400g)"
+            },
+            {
+                "Whipping Cream": "300ml"
+            },
+            {
+                "Dark Chocolate": "50g, grated or shaved"
+            }
+        ],
+        "steps": [
+            "1. Mix crushed digestive biscuits with melted unsalted butter until well combined.",
+            "2. Press the biscuit mixture into the bottom and up the sides of a 9-inch pie dish to form the crust.",
+            "3. Spread dulce de leche evenly over the crust.",
+            "4. Arrange sliced bananas over the dulce de leche layer.",
+            "5. Whip whipping cream until soft peaks form.",
+            "6. Spread whipped cream over the banana layer, covering the pie completely.",
+            "7. Sprinkle grated or shaved dark chocolate over the top of the whipped cream.",
+            "8. Chill the pie in the refrigerator for at least 4 hours, or until set.",
+            "9. Serve chilled, sliced into wedges."
+        ],
+        "metadata": {
+            "desc": "A heavenly pie with layers of buttery biscuit crust, creamy dulce de leche, fresh bananas, and fluffy whipped cream, topped with grated dark chocolate.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as indulgent and irresistible!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Banoffee Pie",
+                "Pie",
+                "Dessert",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "29": {
+        "id": 29,
+        "name": "Pavlova",
+        "status": "Y",
+        "chef": "Anna Pavlova",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Egg Whites": "4"
+            },
+            {
+                "Granulated Sugar": "1 cup"
+            },
+            {
+                "Cornstarch": "1 tsp"
+            },
+            {
+                "White Vinegar": "1 tsp"
+            },
+            {
+                "Vanilla Extract": "1 tsp"
+            },
+            {
+                "Whipping Cream": "1 cup"
+            },
+            {
+                "Fresh Fruit (e.g., berries, kiwi, mango)": "2 cups, sliced"
+            },
+            {
+                "Mint Leaves": "for garnish"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 150\u00c2\u00b0C (300\u00c2\u00b0F).",
+            "2. Line a baking sheet with parchment paper.",
+            "3. In a clean, dry bowl, beat egg whites with an electric mixer until soft peaks form.",
+            "4. Gradually add granulated sugar, 1 tablespoon at a time, while continuing to beat, until the meringue is thick and glossy.",
+            "5. Sprinkle cornstarch over the meringue, then add white vinegar and vanilla extract. Gently fold until just combined.",
+            "6. Spoon the meringue onto the prepared baking sheet, forming a circle or oval shape.",
+            "7. Use the back of a spoon to create a shallow well in the center of the meringue, leaving a border around the edge.",
+            "8. Bake in the preheated oven for 1 hour and 15 minutes, or until the pavlova is crisp on the outside and marshmallowy on the inside.",
+            "9. Turn off the oven and let the pavlova cool completely inside with the oven door slightly ajar.",
+            "10. Once cooled, whip the whipping cream until stiff peaks form.",
+            "11. Spoon the whipped cream into the center of the pavlova.",
+            "12. Top with sliced fresh fruit and garnish with mint leaves.",
+            "13. Serve immediately and enjoy!"
+        ],
+        "metadata": {
+            "desc": "A light and airy dessert with a crisp meringue shell, topped with fluffy whipped cream and a colorful assortment of fresh fruit.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as elegant and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Pavlova",
+                "Dessert",
+                "Meringue",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "30": {
+        "id": 30,
+        "name": "Mango Sticky Rice",
+        "status": "Y",
+        "chef": "Jet Tila",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Sticky Rice": "1 cup, glutinous, soaked in water for at least 4 hours or overnight"
+            },
+            {
+                "Coconut Milk": "1 cup"
+            },
+            {
+                "Sugar": "1/4 cup"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Mangoes": "2 large, ripe, peeled and sliced"
+            },
+            {
+                "Toasted Sesame Seeds": "for garnish"
+            }
+        ],
+        "steps": [
+            "1. Drain soaked sticky rice and rinse under cold water until the water runs clear.",
+            "2. Steam the sticky rice until tender, about 20-25 minutes.",
+            "3. In a saucepan, heat coconut milk, sugar, and salt over medium heat until the sugar dissolves, stirring occasionally.",
+            "4. Remove from heat and let the coconut milk mixture cool slightly.",
+            "5. Transfer the steamed sticky rice to a bowl and pour half of the coconut milk mixture over the rice. Stir to combine.",
+            "6. Let the rice sit for 10-15 minutes to allow the flavors to meld.",
+            "7. To serve, spoon the sticky rice onto serving plates or bowls.",
+            "8. Arrange sliced mangoes alongside the rice.",
+            "9. Drizzle the remaining coconut milk mixture over the rice and mangoes.",
+            "10. Garnish with toasted sesame seeds.",
+            "11. Serve warm or at room temperature, and enjoy!"
+        ],
+        "metadata": {
+            "desc": "A Thai dessert made with sweet sticky rice drizzled with coconut milk and served with ripe mango slices, a perfect balance of flavors and textures.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as exotic and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Mango Sticky Rice",
+                "Dessert",
+                "Thai",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "31": {
+        "id": 31,
+        "name": "Guacamole",
+        "status": "Y",
+        "chef": "Rick Bayless",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Ripe Avocados": "2"
+            },
+            {
+                "Lime Juice": "2 tbsp"
+            },
+            {
+                "Red Onion": "1/4 cup, finely chopped"
+            },
+            {
+                "Tomato": "1, seeded and diced"
+            },
+            {
+                "Fresh Cilantro": "2 tbsp, chopped"
+            },
+            {
+                "Jalapeno Pepper": "1, seeded and minced"
+            },
+            {
+                "Salt": "1/2 tsp"
+            },
+            {
+                "Ground Cumin": "1/2 tsp"
+            },
+            {
+                "Garlic": "1 clove, minced"
+            }
+        ],
+        "steps": [
+            "1. Cut avocados in half, remove pits, and scoop the flesh into a bowl.",
+            "2. Mash the avocados with a fork until smooth but still slightly chunky.",
+            "3. Stir in lime juice to prevent browning.",
+            "4. Add chopped red onion, diced tomato, chopped fresh cilantro, minced jalapeno pepper, minced garlic, salt, and ground cumin to the mashed avocado.",
+            "5. Mix well to combine all ingredients evenly.",
+            "6. Taste and adjust seasoning if necessary.",
+            "7. Serve immediately with tortilla chips or as a topping for tacos, nachos, or toast.",
+            "8. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "A classic Mexican dip made with ripe avocados, lime juice, tomatoes, onions, cilantro, and spices, perfect for dipping or topping.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as fresh and flavorful!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Guacamole",
+                "Dip",
+                "Snack",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "32": {
+        "id": 32,
+        "name": "Caprese Skewers",
+        "status": "Y",
+        "chef": "Giada De Laurentiis",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Cherry Tomatoes": "24"
+            },
+            {
+                "Fresh Mozzarella Balls": "24"
+            },
+            {
+                "Fresh Basil Leaves": "24"
+            },
+            {
+                "Balsamic Glaze": "for drizzling"
+            },
+            {
+                "Salt": "to taste"
+            },
+            {
+                "Black Pepper": "to taste"
+            },
+            {
+                "Extra Virgin Olive Oil": "for drizzling"
+            }
+        ],
+        "steps": [
+            "1. Thread one cherry tomato, one fresh mozzarella ball, and one fresh basil leaf onto each skewer.",
+            "2. Arrange the skewers on a serving platter.",
+            "3. Drizzle balsamic glaze and extra virgin olive oil over the skewers.",
+            "4. Season with salt and black pepper to taste.",
+            "5. Serve immediately as a refreshing and elegant snack or appetizer.",
+            "6. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "A simple and elegant appetizer featuring cherry tomatoes, fresh mozzarella balls, and basil leaves threaded onto skewers and drizzled with balsamic glaze.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as delightful and easy!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Caprese Skewers",
+                "Appetizer",
+                "Snack",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "33": {
+        "id": 33,
+        "name": "Spinach and Feta Puffs",
+        "status": "Y",
+        "chef": "Ina Garten",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Puff Pastry": "1 sheet, thawed"
+            },
+            {
+                "Frozen Spinach": "1 cup, thawed and drained"
+            },
+            {
+                "Feta Cheese": "1/2 cup, crumbled"
+            },
+            {
+                "Parmesan Cheese": "1/4 cup, grated"
+            },
+            {
+                "Garlic": "1 clove, minced"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Black Pepper": "1/4 tsp"
+            },
+            {
+                "Egg": "1, beaten (for egg wash)"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 200\u00c2\u00b0C (400\u00c2\u00b0F).",
+            "2. Roll out the puff pastry sheet on a lightly floured surface.",
+            "3. In a bowl, combine thawed and drained frozen spinach, crumbled feta cheese, grated Parmesan cheese, minced garlic, salt, and black pepper.",
+            "4. Spread the spinach and cheese mixture evenly over the puff pastry sheet.",
+            "5. Roll up the pastry sheet tightly into a log.",
+            "6. Cut the log into 1-inch slices and place them on a baking sheet lined with parchment paper.",
+            "7. Brush the tops of the puff pastry slices with beaten egg for a golden finish.",
+            "8. Bake in the preheated oven for 15-20 minutes, or until the puffs are golden brown and puffed up.",
+            "9. Remove from the oven and let cool slightly before serving.",
+            "10. Serve warm and enjoy!"
+        ],
+        "metadata": {
+            "desc": "Flaky puff pastry filled with a savory mixture of spinach, feta cheese, and garlic, perfect for a quick and tasty snack or appetizer.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as savory and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Spinach and Feta Puffs",
+                "Appetizer",
+                "Snack",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "34": {
+        "id": 34,
+        "name": "Stuffed Mini Bell Peppers",
+        "status": "Y",
+        "chef": "Gordon Ramsay",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Mini Bell Peppers": "12"
+            },
+            {
+                "Cream Cheese": "4 oz, softened"
+            },
+            {
+                "Cheddar Cheese": "1/2 cup, shredded"
+            },
+            {
+                "Green Onions": "2, finely chopped"
+            },
+            {
+                "Garlic Powder": "1/2 tsp"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Black Pepper": "1/4 tsp"
+            },
+            {
+                "Paprika": "1/4 tsp"
+            },
+            {
+                "Bacon Bits": "2 tbsp (optional)"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. Cut the tops off the mini bell peppers and remove the seeds and membranes.",
+            "3. In a mixing bowl, combine softened cream cheese, shredded cheddar cheese, finely chopped green onions, garlic powder, salt, black pepper, and paprika. Mix well.",
+            "4. If using bacon bits, mix them into the cheese mixture.",
+            "5. Stuff each mini bell pepper with the cheese mixture, pressing down gently to fill them completely.",
+            "6. Place the stuffed peppers on a baking sheet lined with parchment paper.",
+            "7. Bake in the preheated oven for 15-20 minutes, or until the peppers are tender and the cheese is melted and bubbly.",
+            "8. Remove from the oven and let cool slightly before serving.",
+            "9. Serve warm as a delicious and colorful snack or appetizer.",
+            "10. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Mini bell peppers stuffed with a creamy mixture of cream cheese, cheddar cheese, green onions, and spices, baked to perfection for a tasty and satisfying snack or appetizer.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as addictive and flavorful!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Stuffed Mini Bell Peppers",
+                "Appetizer",
+                "Snack",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "35": {
+        "id": 35,
+        "name": "Hummus with Crudites",
+        "status": "Y",
+        "chef": "Yotam Ottolenghi",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Hummus": "1 cup, store-bought or homemade"
+            },
+            {
+                "Assorted Vegetables (carrots, cucumbers, bell peppers, cherry tomatoes)": "for dipping"
+            }
+        ],
+        "steps": [
+            "1. Transfer the hummus to a serving bowl.",
+            "2. Wash and prepare assorted vegetables such as carrots, cucumbers, bell peppers, and cherry tomatoes for dipping.",
+            "3. Arrange the vegetables around the hummus bowl on a platter or serving tray.",
+            "4. Serve immediately as a healthy and satisfying snack or appetizer.",
+            "5. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Creamy hummus served with an assortment of fresh and crunchy vegetables for dipping, perfect for a quick and nutritious snack or appetizer.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as simple and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Hummus with Crudites",
+                "Snack",
+                "Appetizer",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "36": {
+        "id": 36,
+        "name": "Baked Sweet Potato Fries",
+        "status": "Y",
+        "chef": "Bobby Flay",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Sweet Potatoes": "2 large"
+            },
+            {
+                "Olive Oil": "2 tbsp"
+            },
+            {
+                "Paprika": "1 tsp"
+            },
+            {
+                "Garlic Powder": "1/2 tsp"
+            },
+            {
+                "Salt": "1/2 tsp"
+            },
+            {
+                "Black Pepper": "1/4 tsp"
+            },
+            {
+                "Cornstarch": "1 tbsp (optional, for extra crispiness)"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 220\u00c2\u00b0C (425\u00c2\u00b0F).",
+            "2. Wash and peel the sweet potatoes, then cut them into thin strips or wedges.",
+            "3. In a large bowl, toss the sweet potato strips with olive oil, paprika, garlic powder, salt, black pepper, and cornstarch (if using), until evenly coated.",
+            "4. Arrange the sweet potato strips in a single layer on a baking sheet lined with parchment paper, making sure they are not overcrowded.",
+            "5. Bake in the preheated oven for 20-25 minutes, flipping halfway through, until the fries are golden brown and crispy.",
+            "6. Remove from the oven and let cool slightly before serving.",
+            "7. Serve warm with your favorite dipping sauce, such as ketchup or aioli.",
+            "8. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Oven-baked sweet potato fries seasoned with paprika and garlic, crispy on the outside and tender on the inside, a healthier alternative to traditional fries.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as addictive and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Baked Sweet Potato Fries",
+                "Snack",
+                "Vegetarian",
+                "Side Dish"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "37": {
+        "id": 37,
+        "name": "Cheese and Herb Crackers",
+        "status": "Y",
+        "chef": "Martha Stewart",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "All-Purpose Flour": "1 cup"
+            },
+            {
+                "Butter": "4 tbsp, cold, cut into cubes"
+            },
+            {
+                "Cheddar Cheese": "1 cup, grated"
+            },
+            {
+                "Fresh Herbs (such as thyme, rosemary, or parsley)": "1 tbsp, finely chopped"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Black Pepper": "1/4 tsp"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 180\u00c2\u00b0C (350\u00c2\u00b0F).",
+            "2. In a food processor, pulse together all-purpose flour, cold cubed butter, grated cheddar cheese, chopped fresh herbs, salt, and black pepper until the mixture resembles coarse crumbs.",
+            "3. Add 1-2 tablespoons of cold water, if needed, to bring the dough together.",
+            "4. Turn the dough out onto a lightly floured surface and knead gently until smooth.",
+            "5. Roll out the dough to about 1/4-inch thickness.",
+            "6. Use a cookie cutter or knife to cut the dough into desired shapes, such as squares or rectangles.",
+            "7. Place the crackers on a baking sheet lined with parchment paper.",
+            "8. Bake in the preheated oven for 12-15 minutes, or until the crackers are golden brown and crisp.",
+            "9. Remove from the oven and let cool completely before serving.",
+            "10. Store in an airtight container for up to 1 week.",
+            "11. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Homemade cheese crackers infused with fresh herbs, perfect for snacking or serving with dips and spreads.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as flavorful and addictive!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Cheese and Herb Crackers",
+                "Snack",
+                "Appetizer",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "38": {
+        "id": 38,
+        "name": "Cucumber Sandwiches",
+        "status": "Y",
+        "chef": "Jamie Oliver",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Cucumbers": "2, thinly sliced"
+            },
+            {
+                "Cream Cheese": "4 oz, softened"
+            },
+            {
+                "Fresh Dill": "2 tbsp, chopped"
+            },
+            {
+                "Lemon Zest": "1 tsp"
+            },
+            {
+                "Salt": "1/4 tsp"
+            },
+            {
+                "Black Pepper": "1/4 tsp"
+            },
+            {
+                "Bread Slices": "8, crusts removed"
+            }
+        ],
+        "steps": [
+            "1. In a bowl, mix together softened cream cheese, chopped fresh dill, lemon zest, salt, and black pepper until well combined.",
+            "2. Spread the cream cheese mixture evenly onto one side of each bread slice.",
+            "3. Arrange thinly sliced cucumbers on half of the bread slices.",
+            "4. Top with the remaining bread slices, cream cheese side down, to form sandwiches.",
+            "5. Use a sharp knife to cut the sandwiches into desired shapes, such as triangles or rectangles.",
+            "6. Serve immediately as a light and refreshing snack or tea-time treat.",
+            "7. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Delicate tea sandwiches made with creamy herbed cream cheese and thinly sliced cucumbers, perfect for elegant gatherings or afternoon tea.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as refreshing and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Cucumber Sandwiches",
+                "Snack",
+                "Tea Sandwiches",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "39": {
+        "id": 39,
+        "name": "Mini Vegetable Samosas",
+        "status": "Y",
+        "chef": "Madhur Jaffrey",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Potatoes": "2 medium, boiled and mashed"
+            },
+            {
+                "Frozen Mixed Vegetables": "1 cup, thawed"
+            },
+            {
+                "Onion": "1, finely chopped"
+            },
+            {
+                "Green Chili Pepper": "1, minced"
+            },
+            {
+                "Fresh Ginger": "1 tsp, grated"
+            },
+            {
+                "Cumin Seeds": "1 tsp"
+            },
+            {
+                "Coriander Powder": "1 tsp"
+            },
+            {
+                "Garam Masala": "1/2 tsp"
+            },
+            {
+                "Turmeric Powder": "1/4 tsp"
+            },
+            {
+                "Salt": "1 tsp"
+            },
+            {
+                "Frozen Puff Pastry Sheets": "1 pack, thawed"
+            }
+        ],
+        "steps": [
+            "1. Preheat your oven to 200\u00c2\u00b0C (400\u00c2\u00b0F).",
+            "2. In a skillet, heat oil over medium heat.",
+            "3. Add cumin seeds and let them sizzle for a few seconds.",
+            "4. Add chopped onion, minced green chili pepper, and grated fresh ginger. Saute until the onion is soft and translucent.",
+            "5. Stir in coriander powder, garam masala, turmeric powder, and salt. Cook for another minute.",
+            "6. Add thawed mixed vegetables and mashed potatoes to the skillet. Mix well and cook for 2-3 minutes.",
+            "7. Remove from heat and let the mixture cool slightly.",
+            "8. Roll out thawed puff pastry sheets on a lightly floured surface.",
+            "9. Cut each sheet into small squares.",
+            "10. Place a spoonful of the vegetable filling in the center of each pastry square.",
+            "11. Fold the pastry over the filling to form a triangle and seal the edges with a fork.",
+            "12. Arrange the samosas on a baking sheet lined with parchment paper.",
+            "13. Bake in the preheated oven for 20-25 minutes, or until the samosas are golden brown and crispy.",
+            "14. Remove from the oven and let cool slightly before serving.",
+            "15. Serve warm with chutney or dipping sauce of your choice.",
+            "16. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Flaky pastry filled with a savory mixture of spiced vegetables, baked until golden brown and crispy, a popular Indian snack.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as flavorful and satisfying!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Mini Vegetable Samosas",
+                "Snack",
+                "Appetizer",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "40": {
+        "id": 40,
+        "name": "Sesame Soy Edamame",
+        "status": "Y",
+        "chef": "David Chang",
+        "type": [
+            "Vegetarian"
+        ],
+        "ingredients": [
+            {
+                "Edamame": "2 cups, cooked and shelled"
+            },
+            {
+                "Soy Sauce": "2 tbsp"
+            },
+            {
+                "Rice Vinegar": "1 tbsp"
+            },
+            {
+                "Sesame Oil": "1 tbsp"
+            },
+            {
+                "Honey": "1 tsp"
+            },
+            {
+                "Sesame Seeds": "1 tbsp, toasted"
+            },
+            {
+                "Green Onion": "1, thinly sliced"
+            }
+        ],
+        "steps": [
+            "1. In a small bowl, whisk together soy sauce, rice vinegar, sesame oil, and honey to make the sauce.",
+            "2. In a skillet, heat the cooked and shelled edamame over medium heat.",
+            "3. Pour the sauce over the edamame in the skillet and toss to coat evenly.",
+            "4. Cook for 2-3 minutes, stirring occasionally, until the edamame is heated through and the sauce has thickened slightly.",
+            "5. Remove from heat and transfer the sesame soy edamame to a serving dish.",
+            "6. Sprinkle toasted sesame seeds and thinly sliced green onions over the top.",
+            "7. Serve immediately as a nutritious and flavorful snack or appetizer.",
+            "8. Enjoy!"
+        ],
+        "metadata": {
+            "desc": "Steamed edamame tossed in a savory sauce made with soy sauce, rice vinegar, sesame oil, and honey, garnished with toasted sesame seeds and green onions.",
+            "reviews": {
+                "1.": [
+                    "One review"
+                ],
+                "2.": [
+                    "Rated as addictive and delicious!"
+                ]
+            },
+            "image": "location",
+            "keywords": [
+                "Sesame Soy Edamame",
+                "Snack",
+                "Appetizer",
+                "Vegetarian"
+            ]
+        },
+        "chef_id": "V"
+    },
+    "41": {
+        "name": "Lemon Mojito",
+        "chef": "Lee Williams",
+        "chef_id": "30",
+        "type": [
+            "Drink"
+        ],
+        "ingredients": [
+            {
+                "lemons": "30g"
+            },
+            {
+                "sugar": "1tspn"
+            },
+            {
+                "rum": ""
+            },
+            {
+                "Ice": ""
+            },
+            {
+                "soda water": ""
+            }
+        ],
+        "steps": [
+            "1. In a tumbler mull using a cocktail muddler, 6-7 mint sprigs with 1 tablespoon of sugar and 1 quartered lemon. ",
+            "2. Firmly and slowly, press down on the lemons and mint a few times. ",
+            "3.  Add a shot of white rum and crushed ice.",
+            "4. Top with soda water and garnish with sprig of mint leaves."
+        ],
+        "metadata": {
+            "desc": "This refreshing Lemon Mojito is the perfect summer drink. Made with white rum, lemon juice, and fresh mint leaves, this cocktail is a delicious twist on the traditional Cuban classic.",
+            "reviews": {},
+            "image": "mojito-4-693x1024[1].jpg",
+            "keyword": [
+                "Mojito",
+                "Lemons",
+                "Refreshing",
+                "Drink"
+            ]
+        }
+    }
+}

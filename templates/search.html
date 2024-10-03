@@ -1,0 +1,144 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - GF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\search.css' %}" />
+    <script src="{% static 'JS\def_load.js' %}"></script>
+  </head>
+  <body>
+    <div id="navb">{%include "nav.html"%}</div>
+    <main>
+      <div class="sidebar_back">
+        <div class="sidebar">
+          <div class="" onclick='get_home()'>
+            <img src="{% static '\res\img\main\home.svg'%}" alt="" />
+          </div>
+          <div class="" onclick="search_click()">
+            <img src="{%static '\res\def\search.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\fire.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\trending.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\chef.svg'%}" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="search_bar">
+          <div class="search">
+        <form onsubmit="search_submit();return false;">
+          <input type="text" name="" id="search_in" placeholder="Search Recipes Here" required>  
+          <button  type="submit">Search</button>
+          
+        </form>
+          </div>
+        </div>     
+      
+
+        <div class="search_img" id="search_img">
+          <img src="{% static '\res\img\search\search.svg'%}" alt="">
+        </div>
+
+        <div class="results_list" id="results_list" style="display: none;">
+        </div>
+
+        <div class="result" id="result" style="display: none;">
+          <div class="res_img">
+            <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+          </div>
+          <div class="res_cont">
+            <div class="res_title">
+              Title
+            </div>
+            <div class="res_by">
+              By: 
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <div id="footerb">{%include 'footer.html'%}</div>
+</body>
+<script>
+
+  var url_param = window.location.search;
+  var pars = new URLSearchParams(url_param);
+  if (pars['size']>0)
+  {
+    fetch('/search_res?query='+pars.get('query'), {method:'GET'}).then(response => response.json()).then((data)=>proc_data(data));
+    document.getElementById('search_in').value = pars.get('query');
+
+  }
+
+    var x = JSON.parse('{{user_data|safe}}');
+    console.log(x);
+
+
+    function proc_data(data)
+    {
+      // console.log(Object.keys(data).length);
+      if (Object.keys(data).length==0)
+      {
+        document.getElementById('search_img').hidden = false;
+        document.getElementById('results_list').style.display = 'none';
+        document.getElementById('search_img').querySelector('img').src = "/static/res/img/search/not_search.svg"
+      }
+      else{
+        document.getElementById('search_img').hidden = true;
+        var result_list = document.getElementById('results_list');
+
+        result_list.style.display = 'grid';
+        // console.log(data);
+        for (var i = 0; i<Object.keys(data).length; i++)
+        {
+          var result = document.getElementById('result').cloneNode(true);
+          result.id = "resultant"+i;
+          result.style.display = 'grid';
+          try{
+           result.querySelector('img').src = "/static/res/img/dow/"+data[Object.keys(data)[i]]['metadata']['image'];
+          }
+          catch{
+            null;
+          } 
+          result.querySelector('div[class="res_title"]').innerHTML = data[Object.keys(data)[i]]['name'];
+          result.querySelector('div[class="res_by"]').innerHTML += " "+data[Object.keys(data)[i]]['chef'];
+          result.setAttribute('onclick', "rec_click("+data[Object.keys(data)[i]]['id']+")");
+
+          result_list.append(result)
+        }
+      }
+  }
+    function search_submit()
+    {
+      var search_in = document.getElementById('search_in');
+      window.location.assign("{%url 'search'%}?query="+search_in.value);
+    }
+
+    function rec_click(id)
+  {
+    window.location.assign("{%url 'rec'%}?id="+id)
+  }
+
+  function get_home()
+  {
+      window.location.assign("{%url 'home'%}");
+  }
+  function search_click()
+  {
+    window.location.assign("{%url 'search'%}");
+  }
+</script>
+
+</html>

@@ -1,0 +1,111 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - GF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\search.css' %}" />
+    <script src="{% static 'JS\def_load.js' %}"></script>
+  </head>
+  <body>
+    <div id="navb">{%include "nav.html"%}</div>
+    <main>
+      <div class="sidebar_back">
+        <div class="sidebar">
+          <div class="" onclick='get_home()'>
+            <img src="{% static '\res\img\main\home.svg'%}" alt="" />
+          </div>
+          <div class="" onclick="search_click()">
+            <img src="{%static '\res\def\search.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\fire.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\trending.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\chef.svg'%}" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="contents">
+        <div class="mid_img_2">
+            <img src="{%static '\res/def/W Main Logo.png'%}" alt="">
+        </div>
+        <div class="ab_text">
+            <div class="main_text">
+                Privacy Policy
+            </div>
+            <hr>
+            Gourmet Fiesta respects the privacy of our visitors. This Privacy Policy describes the types of information we collect on our website and how we use that information.
+            <br><br>
+            Information We Collect:
+            <br><br>
+            
+            We collect two types of information on our website:
+            <br><br>
+            <ul><li>
+            Personal Information: This includes information that can be used to identify you, such as your name and email address. We only collect this information when you voluntarily provide it to us, such as when you subscribe to our newsletter, leave a comment on a recipe, or contact us directly. </li><br><li>
+            Non-Personal Information: This includes information that does not identify you personally, such as your browsing activity on our website, IP address, device type, and operating system. We collect this information automatically through cookies and other tracking technologies.</li>
+        </ul>
+            Use of Information:
+            <br><br>
+            
+            We use the information we collect to:
+            <br><br>
+            <ul>
+            <li>Provide, operate, and maintain our website.
+            <li>Send you newsletters, promotional emails, and other communications (with your consent).
+            <li>Respond to your comments and queries.
+            <li>Analyze how you use our website to improve your experience.
+            <li>Personalize your experience on our website by recommending recipes based on your browsing history.
+        </ul>
+            Sharing of Information:
+            <br><br>
+            
+            We will not sell, rent, or share your personal information with third parties without your consent. However, we may share non-personal information with third-party service providers who help us operate our website and analyze user behavior.
+            <br><br>
+            
+            Your Choices:
+            <br><br>
+            
+            You can opt out of receiving our newsletters and promotional emails by clicking the unsubscribe link at the bottom of any such communication. You can also control the use of cookies by adjusting your browser settings.
+            <br><br>
+            
+            Data Security:
+            <br><br>
+            
+            We take reasonable steps to protect the information you provide to us from loss, misuse, unauthorized access, disclosure, alteration, or destruction. However, no internet transmission is completely secure, and we cannot guarantee the security of your information.
+            <br><br>
+            
+            Children's Privacy:
+            <br><br>
+            
+            Our website is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and you believe your child has provided us with personal information, please contact us. We will take steps to remove the information from our records.
+            <br><br>
+            
+            Changes to this Privacy Policy:
+            <br><br>
+            
+            We may update this Privacy Policy from time to time. We will post any changes on this page. We encourage you to review this Privacy Policy periodically for any updates.
+            <br><br>
+            
+            Contact Us:
+            <br><br>
+            
+            If you have any questions about this Privacy Policy, please contact us..
+        </div>
+      </div>
+
+    </main>
+    <div id="footerb">{%include 'footer.html'%}</div>
+
+  </body>
+</html>

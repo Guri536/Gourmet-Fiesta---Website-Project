@@ -1,0 +1,71 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{%static 'CSS/sign.css'%}">
+  </head>
+  <body>
+    <div class="main_sign">
+    <form onsubmit="if (!submit_form()){return false;}" method="POST">
+      {%csrf_token%}
+      <h2>Sign Up</h2>
+      <input
+        type="text"
+        name="username"
+        placeholder="Username"
+        id="name"
+        required
+      /><br />
+      <input type="email" name="email" placeholder="Email" id="email" required /><br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        id="pass"
+        minlength="8"
+        required
+      /><br />
+      <input
+      type="password"
+      name="c_password"
+      placeholder="Confirm Password"
+      id="cpass"
+      required
+    /><br />
+      <input type="submit" value="Sign Up" />
+    </form>
+    <div class="err" hidden id="err"> 
+      Please eneter the fields correctly
+    </div>
+    <div class="down_text">
+      <div class="chn_text">
+        Already Have An Account? <a href="login">Login</a>
+      </div>
+    </div>
+  </div>
+  </body>
+  <script>
+    function submit_form()
+    {
+      var uob = document.getElementById('name');
+      var eob = document.getElementById('email');
+      var pob = document.getElementById('pass');
+      var cpob = document.getElementById('cpass');
+      if (pob.value == cpob.value)
+      {
+        // console.log("ss"+pob.value+" "+cpob.value);
+        return true;
+      }
+      else{
+        document.getElementById('err').hidden = false;
+        pob.style.backgroundColor = '#aa222255';
+        cpob.style.backgroundColor = '#aa222255';
+        // console.log("error"+pob.value+" "+cpob.value);
+        return false;
+      }
+    }
+  </script>
+</html>

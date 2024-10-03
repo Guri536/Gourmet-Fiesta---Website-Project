@@ -1,0 +1,54 @@
+@property --secondary-green
+{
+    syntax: "<color>";
+    inherits: false;
+    /* initial-value: #87c4c7  ; */
+    /* initial-value: rgb(172, 239, 202); */
+    initial-value: #96d2bc;
+}
+@property --primary-green
+{
+    syntax: "<color>";
+    inherits: false;
+    /* initial-value: #1C9B5E; */
+    /* initial-value: #343d4b; */
+    initial-value: #05161f;
+
+}
+@property --bac
+{
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #eeeeee;
+}
+@property --bac_g
+{
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #9ec8b9c1;
+}
+.sidebar div:hover{
+    animation: icon_wiggle 600ms linear infinite;
+    transition: 200ms;
+}
+@keyframes icon_wiggle{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: -5deg;
+        scale: 1.1;
+        filter: drop-shadow(2px 2px 2px #000000b6);
+    }
+    50%{
+        rotate: 0deg;
+    }
+    75%{
+        rotate: 5deg;
+        scale: 1.1;
+        filter: drop-shadow(2px 2px 2px #000000b6);
+    }
+    100%{
+        rotate: 0deg;
+    }
+}

@@ -1,0 +1,13 @@
+ {
+   "1": {
+    "id":1,
+    "name":"Butter Chicken",
+    "status":"N",
+    "chef":"ABC",
+    "chef_id":"1",
+    "type":["Dairy","Non-veg"],
+    "ingredients":[{"Chicken Breasts":"500g"},{"Garlic-Ginger Paste":"20ml"}],
+    "steps":["1. Cook dfa","2. AeEat"],
+    "metadata":{"desc":"ASJDBUASd", "reviews":{"1":["Bad","Bbabd"]},"image":"location","keywords":["Chicken","Non-Veg"]}
+   }
+}

@@ -1,0 +1,68 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - GF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\search.css' %}" />
+    <script src="{% static 'JS\def_load.js' %}"></script>
+  </head>
+  <body>
+    <div id="navb">{%include "nav.html"%}</div>
+    <main>
+      <div class="sidebar_back">
+        <div class="sidebar">
+          <div class="" onclick='get_home()'>
+            <img src="{% static '\res\img\main\home.svg'%}" alt="" />
+          </div>
+          <div class="" onclick="search_click()">
+            <img src="{%static '\res\def\search.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\fire.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\trending.svg'%}" alt="" />
+          </div>
+          <div class="">
+            <img src="{% static '\res\img\main\chef.svg'%}" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="contents">
+        <div class="mid_img_2">
+            <img src="{%static '\res/def/W Main Logo.png'%}" alt="">
+        </div>
+        <div class="ab_text">
+            <div class="main_text">
+                About Us
+            </div>
+            <hr>
+            At Gourmet Fiesta, we're passionate about transforming mealtimes into celebrations. We believe that good food has the power to bring people together, create lasting memories, and add a touch of magic to everyday life.
+            <br><br>
+            This website is your one-stop shop for discovering delicious and exciting recipes, from the comfort food classics to unique global flavors. We cater to all skill levels, so whether you're a seasoned chef or a kitchen novice, you'll find dishes that inspire you.
+
+            Our Mission:
+            <ul>
+            <li>To provide easy-to-follow recipes with clear instructions.</li>
+            <li>To showcase a diverse range of cuisines from around the world.</li>
+            <li>To help you discover new and exciting flavors.</li>
+            <li>To make cooking enjoyable and accessible for everyone.</li>
+        </ul>   
+            Join the Fiesta!
+            <br><br>
+            Gourmet Fiesta is more than just a recipe website; it's a vibrant community where passionate home cooks, like you, come together to celebrate the joy of food. We're a team of food enthusiasts, recipe developers, and storytellers who believe that cooking should be fun, creative, and accessible to everyone.
+        </div>
+      </div>
+
+    </main>
+    <div id="footerb">{%include 'footer.html'%}</div>
+
+  </body>
+</html>

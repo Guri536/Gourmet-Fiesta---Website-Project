@@ -1,0 +1,355 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\add.css' %}" />
+    <style>
+      body {
+        background-image: url("/static/res/img/add/pexels-lukas-616484 (1).jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navb">{%include "nav.html"%}</div>
+
+    <main>
+      <div class="top_text">COOK UP</div>
+      <div class="add_text">
+        This tool allows you to quickly add recipies to the website's listing.
+        Simply fill in the details for the recipie, including the dish name,
+        image file/URL, description, and steps.
+      </div>
+      <div class="form_sec">
+        <form method="post" onsubmit="send_data();">
+          {%csrf_token%}
+          <div class="content_sec">
+            <div class="left_sec">
+              <div class="list_sec">
+                <label for="title">Title: </label>
+                <input name="title" type="text" placeholder="Title here" required/>
+              </div>
+              <div class="list_sec">
+                <label for="desc">Desc: </label>
+                <textarea
+                  name="desc"
+                  id=""
+                  cols="30"
+                  rows="5"
+                  placeholder="Description here"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="list_sec">
+                <label for="image">Image: </label>
+                <input
+                  name="image"
+                  id="image"
+                  type="file"
+                  value="Choose Image"
+                  placeholder="Upload Image "
+                  required
+                  onchange="upl_img()"
+                />
+              </div>
+
+              <div class="list_sec">
+                <label for="type">Type: </label>
+                <div class="selections">
+                  <div class="selected_type" id="selected">
+                    <div class="selected" id="selected_1" name="selected" hidden></div>
+                  </div>
+                  <select name="type" id="type" onchange="selected_item()" required>
+                    Select Type
+                    <option value="" selected hidden>Select</option>
+                    <option value="Veg">Veg</option>
+                    <option value="Non-Veg">Non-Veg</option>
+                    <option value="Gluten-Free">Gluten-Free</option>
+                    <option value="Dairy-Free">Dairy-Free</option>
+                    <option value="Vegan">Vegan</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Drink">Drink</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="list_sec" id='ing_sec' style="width: 63%;">
+                <label for="ing">Ingredients: </label>
+                <div class="int_sec_sec">
+
+                <div class="ing" id='select_list'>
+
+                  <div class="select_ing" id="select_ing">
+
+                    <div class="selections ing_t">
+                      <select name="ing" id="ing" required>
+                        <option value="" selected hidden>None</option>
+                      </select>
+                    </div>
+                    <div class="selections">
+                      <input
+                        type="number"
+                        name="ing_amount"
+                        id="ing_am"
+                        placeholder="Amount"
+                        min="0"
+                      />
+                    </div>
+                    <div class="selections ing_q">
+                      <select name="ing_q" id="ing_q">
+                        Select quantity
+                        <option value="" selected hidden>Quantity</option>
+                        <option value="mg">mg</option>
+                        <option value="g">g</option>
+                        <option value="ml">ml</option>
+                        <option value="tspn">tspn</option>
+                      </select>
+                    </div>
+                    
+                </div>
+
+              </div>
+              <div class="err" id="err" hidden> 
+                Please fill the last ingredient, before adding more.
+              </div>
+                <div class="add_btn" id="add_btn">
+                  <input type="button" value="+" onclick="selected_ing()">
+                </div>
+              </div>
+              </div>
+
+              <div class="list_sec" style="width: 55%;">
+                <label for="type">Steps: </label>
+                <div class="steps_sec">
+                  <div class="step_list" id="step_list">
+                    <div class="single_step" id="single_step">
+                      <div class="step_label" id="step_label">1.</div>
+                      <input type="text" name="step" id="step1" placeholder="Enter Steps to Recipie" required>
+                    </div>
+                  </div>
+                  <div class="err" id="err2" hidden> 
+                    Please add the previous step first.
+                  </div>
+                    <div class="add_btn" id="add_btn">
+                      <input type="button" value="+" onclick="selected_step()">
+                    </div>
+                </div>
+              </div>
+
+              <div class="list_sec">
+                <label for="type">Keywords: </label>
+                <div class="kw_sec">
+                  <div class="kw_list" id="kw_list">
+                      <div class="single_kw" id="single_kw">
+                      <input type="text" name="kw" id="kw" placeholder="Keyword here">
+                      </div>
+                      <div class="add_btn" id="add_btn_kw">
+                        <input type="button" value="+" onclick="selected_kw()">
+                      </div>
+                  </div>
+                  <div class="err" id="err3" hidden> 
+                    Please add the previous keyword first.
+                  </div>
+                  <div class="kw_selected" id="kw_selected"></div>
+
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+            <div class="right_sec">
+              <img
+                src="{% static '/res/img/add/up_img.png' %}"
+                alt=""
+                id="uploaded_image"
+                onclick="document.getElementById('image').click(); return false;"
+              />
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    {%include "footer.html"%}
+  </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    var x = JSON.parse('{{user_data|safe}}');
+    // console.log(x);
+    function selected_item() {
+      // console.log("ere");
+      if (document.getElementById("selected").childElementCount < 4) {
+        var sel = document.getElementById("type");
+        var selected = document.getElementById("selected_1");
+        selected.hidden = false;
+        selected.innerHTML = sel.value;
+        sel.style.marginTop = "10px";
+        let clone = selected.cloneNode(true);
+        selected.setAttribute("name", 'selected_done');
+        selected.id = "selected_done";
+        clone.hidden = true;
+        document.getElementById("selected").append(clone);
+
+      }
+
+    }
+    let ings_list = x['ing'];
+    // console.log(ings_list);
+    for(var [i,j] of Object.entries(ings_list)){
+      // console.log(i);
+      var opt = document.createElement('optgroup');
+      opt.label = String(i).toUpperCase();
+      document.getElementById('ing').append(opt);
+      var option = document.createElement('option');
+      // console.log(ings_list[i].length)
+        for (var z = 0; z<ings_list[i].length; z++)
+        {
+          var clone = option.cloneNode(true);
+          clone.value = ings_list[i][z];
+          clone.innerHTML = ings_list[i][z];
+          document.getElementById('ing').append(clone);
+        }
+    }
+
+
+    function selected_ing(){
+      if(document.getElementById('select_ing').querySelector('select[name="ing"]').value != '')
+      {
+        document.getElementById('err').hidden = true;
+        var select_ing = document.getElementById('select_ing');
+        var clone = select_ing.cloneNode(true);
+        var ing_list = document.getElementById('select_list');
+        clone.querySelector('#ing_am').value = '';
+        select_ing.id = select_ing.id + ing_list.children.length; 
+        ing_list.append(clone);
+      }
+      else
+      {
+        document.getElementById('err').hidden = false;
+      }
+    }
+    function selected_step()
+    {
+      var curr_step = 'step'+document.getElementById('step_list').childElementCount;
+      if (document.getElementById(curr_step).value != "")
+      {
+        document.getElementById('err2').hidden = true;
+        var single_step = document.getElementById('single_step');
+        var clone = single_step.cloneNode(true);
+        clone.querySelector('.step_label').innerHTML = document.getElementById('step_list').childElementCount+1+'.';
+        clone.querySelector('input[name="step"]').id = 'step'+ (Number(document.getElementById('step_list').childElementCount) + 1);
+        clone.querySelector('input[name="step"]').value = '';
+        document.getElementById('step_list').append(clone);
+      }
+      else
+      {
+        document.getElementById('err2').hidden = false;
+      }
+    }
+
+    function selected_kw()
+    {
+      if (document.getElementById('kw').value != "")
+      {
+        document.getElementById('err3').hidden = true;
+        var single_step = document.getElementById('single_kw');
+        var clone = single_step.cloneNode(true);
+        var clone2 = document.getElementById('step_label').cloneNode(true);
+        clone2.innerHTML = document.getElementById('kw').value;
+        clone.querySelector('input').value = "";
+        single_step.remove();
+        document.getElementById('kw_list').insertBefore(clone, document.getElementById('add_btn_kw'));
+        document.getElementById('kw_selected').append(clone2);
+      }
+      else
+      {
+        document.getElementById('err3').hidden = false;
+      }
+    }
+    function upl_img()
+    {
+      var img_el = document.getElementById('image').files[0];
+      const reader = new FileReader();
+      // let obURL = URL.createObjectURL(img_el);
+      // readee.read
+        reader.addEventListener(
+      "load",
+      () => {
+        // convert image file to base64 string
+        document.getElementById('uploaded_image').src = reader.result;
+      },
+      false,
+    );
+
+    if (img_el) {
+      reader.readAsDataURL(img_el);
+      
+    }
+}
+   
+function send_data()
+{
+  try{
+    send_data_var = {};
+    send_data_var['name'] = document.getElementsByName('title')[0].value;
+    send_data_var['chef'] = x['first_name'] +" "+ x['last_name']; 
+    send_data_var['chef_id'] = x['id'];
+    send_data_var['type'] = [];
+    for (var i=0; i<document.getElementsByName('selected_done').length; i++)
+    {
+      send_data_var['type'][i] = document.getElementsByName('selected_done')[i].innerHTML;
+    }
+    send_data_var['ingredients'] = [];
+    for (var i=0; i<document.getElementsByName('ing').length; i++)
+    {
+      send_data_var['ingredients'][i] = {};
+      // console.log(document.getElementsByName('ing_q')[i]);
+      send_data_var['ingredients'][i][document.getElementsByName('ing')[i].value] = document.getElementsByName('ing_amount')[i].value + document.getElementsByName('ing_q')[i].value;
+    }
+    send_data_var['steps'] = [];
+    for (var i=0; i<document.getElementsByName('step').length; i++)
+    {
+      send_data_var['steps'][i] = (i+1) + '. ' + document.getElementsByName('step')[i].value;
+    }
+    send_data_var['metadata'] = {};
+    send_data_var['metadata']['desc']= document.getElementsByName('desc')[0].value;
+    send_data_var['metadata']['reviews'] ={};
+    img_var = document.getElementById('image').value.split("\\");
+    send_data_var['metadata']['image'] = img_var[img_var.length-1];
+    send_data_var['metadata']['keywords'] =[];
+    // console.log(document.getElementById('kw_selected').childElementCount);
+    for (var i=0; i<document.getElementById('kw_selected').childElementCount; i++)
+    {
+      send_data_var['metadata']['keywords'][i] = document.getElementById('kw_selected').children[i].innerHTML;
+    }
+    console.log(send_data_var);
+    $.ajax({
+      type: "POST",
+      data: {
+                id: "1",
+                csrfmiddlewaretoken: "{{ csrf_token }}",
+                data: JSON.stringify(send_data_var),
+              }
+    });
+  }
+  catch
+  {
+    console.log('error');
+  }
+
+}
+      
+    
+  </script>
+</html>

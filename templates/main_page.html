@@ -1,0 +1,409 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+    rel="shortcut icon"
+    href="{%static 'res\def\W Mini Logo.png'%}"
+    type="image/png"
+    
+  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - GF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'CSS\nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'CSS\main.css' %}" />
+    <!-- <script src="{% static 'JS\def_load.js' %}"></script> -->
+
+    <style>
+      body {
+        background-image: url("/static/res/img/main/pexels-diamond-multimedia-9993709.jpg");
+        /* background-color: var(--bac); */
+        
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navb">{%include "nav.html"%}</div>
+    <main>
+      <div class="top_info">
+        <div class="top_row">
+          <div class="left_row">
+            <div class="img_sec">
+              <div class="img_con">
+                <img
+                  src="{% static 'res\img\main\national-cancer-institute-cfGG0niafjc-unsplash.jpg'%}"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="desc_sec">
+              Explore deliciousness with your loved one!
+            </div>
+          </div>
+          <div class="right_row">
+            <div class="desc_sec">Enjoy eating good & healthy</div>
+            <div class="img_sec">
+              <div class="img_con">
+                <img
+                  src="{% static '\res\img\main\pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg'%}"
+                  alt=""
+                  style="transform: translateX(-70px)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mid_row">Flavourful Exploration Made Easy</div>
+        <div class="last_row">
+          <div class="left_row">
+            <div class="img_sec">
+              <div class="img_con">
+                <img
+                  src="{% static '/res\img\main\istockphoto-1181396290-1024x1024.jpg'%}"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="desc_sec">Have the greatest cookouts!</div>
+          </div>
+          <div class="right_row">
+            <div class="desc_sec">And share your own cooking masterpieces!</div>
+            <div class="img_sec">
+              <div class="img_con">
+                <img
+                  src="{% static '/res\img\main\image_2024-04-09_15-52-50.png'%}"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec_lists">
+        <div class="sidebar_back">
+          <div class="sidebar">
+            <div class="" onclick="get_home()">
+              <img src="{% static '\res\img\main\home.svg'%}" alt="" />
+            </div>
+            <div class="" onclick="search_click()">
+              <img src="{%static '\res\def\search.svg'%}" alt="" />
+            </div>
+            <div class="">
+              <img src="{% static '\res\img\main\fire.svg'%}" alt="" style="filter: grayscale(1);"/>
+            </div>
+            <div class="">
+              <img src="{% static '\res\img\main\trending.svg'%}" alt="" />
+            </div>
+            <div class="">
+              <img src="{% static '\res\img\main\chef.svg'%}" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="content">
+
+          <div class="section" id="sec_1">
+
+            <div class="side_img">
+              <div class="img_frame">
+                <div class="mask">
+                  <img src="{% static '\res\img\main\chef_icon.svg'%}" alt="">
+                </div>
+              </div>
+              <div class="img_title">
+                Recipies by Chefs
+              </div>
+            </div>
+
+            <div class="rec_sec">
+              <div class="rec" id="chef_rec_1">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_2">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_3">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_4">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="section" id="sec_2">
+
+            <div class="side_img">
+              <div class="img_frame">
+                <div class="mask">
+                  <img src="{% static '\res\img\main\thumbs.svg'%}" alt="">
+                </div>
+              </div>
+              <div class="img_title">
+                Popular
+              </div>
+            </div>
+
+            <div class="rec_sec">
+
+              <div class="rec" id="chef_rec_5">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_6">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_7">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_8">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+          <div class="section" id="sec_3">
+
+            <div class="side_img">
+              <div class="img_frame">
+                <div class="mask">
+                  <img src="{% static '\res\img\main\fire_rec.svg'%}" alt="" style="filter: grayscale(1);">
+                </div>
+              </div>
+              <div class="img_title">
+                Trending
+              </div>
+            </div>
+
+            <div class="rec_sec">
+
+              <div class="rec" id="chef_rec_9">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_10">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_11">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_12">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+          <div class="section" id="sec_4">
+
+            <div class="side_img">
+              <div class="img_frame">
+                <div class="mask">
+                  <img src="{% static '\res\img\main\savory.svg'%}" alt="">
+                </div>
+              </div>
+              <div class="img_title">
+                Savory
+              </div>
+            </div>
+
+            <div class="rec_sec">
+
+              <div class="rec" id="chef_rec_13">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_14">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_15">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+              <div class="rec" id="chef_rec_16">
+                <div class="rec_img">
+                  <div class="rec_img_frame">
+                    <img src="{% static '\res\img\main\sample.jpg'%}" alt="">
+                  </div>
+                </div>
+                <div class="img_title">
+                  Title
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+
+    </main>
+    <div id="footerb">{%include 'footer.html'%}</div>
+  </body>
+  <script>
+
+    var x = JSON.parse('{{user_data|safe}}');
+    console.log(x);
+
+    var rec_list = (x['rec']);
+    var rec_index = Object.keys(rec_list);
+    console.log(rec_index);
+    // console.log(rec_it_index);
+
+    var curr_id;
+    var list_sec = []
+    console.log(rec_list);
+  for (var i=1; i<17; i++)
+  {
+    list_sec.push(document.getElementById("chef_rec_"+String(i)));
+  }
+  for (var i of list_sec)
+  {
+    i.querySelector('div[class="img_title"]').innerHTML = rec_list[rec_index[list_sec.indexOf(i)]]['name'];
+    i.setAttribute('onclick', "rec_click("+rec_list[rec_index[list_sec.indexOf(i)]]['id']+")");
+    try{
+    i.querySelector('img').src = "/static/res/img/dow/"+rec_list[rec_index[list_sec.indexOf(i)]]['metadata']['image'];
+    }
+    catch{
+      null;
+    }
+  }
+  function rec_click(id)
+  {
+    window.location.assign("{%url 'rec'%}?id="+id)
+  }
+
+  function get_home()
+  {
+      window.location.assign("{%url 'home'%}");
+  }
+  function search_click()
+  {
+    window.location.assign("{%url 'search'%}");
+  }
+  </script>
+
+  <!-- <script src="/rep/JS/def_load.js"></script> -->
+</html>

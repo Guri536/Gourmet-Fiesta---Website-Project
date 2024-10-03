@@ -1,0 +1,62 @@
+@import url("def.css");
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/static/res/img/main/pexels-ella-olsson-1640777.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .main_sign {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 300px;
+  }
+  .down_text{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .down_text .contr_text{
+    margin-top: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"], .cuisine_s, select, .qual_s {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    background-color: var(--primary-green);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto 5px auto;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  option, select{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8vw;
+  }
+  .err{
+    width: 90%;
+    padding: 5px;
+    background-color: rgba(255, 255, 101, 0.483);
+    margin: 10px auto;
+    /* text-align: center; */
+    border-radius: 10px;
+    border: 2px yellow solid;
+  }
